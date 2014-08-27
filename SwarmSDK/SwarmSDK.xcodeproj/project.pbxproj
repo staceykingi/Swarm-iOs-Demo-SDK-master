@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		41C4B5B818B7947500A9B4DB /* Universal Library */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 41C4B5B918B7947500A9B4DB /* Build configuration list for PBXAggregateTarget "Universal Library" */;
+			buildPhases = (
+				41C4B5BC18B7947E00A9B4DB /* ShellScript */,
+			);
+			dependencies = (
+				41C4B5BE18B794E000A9B4DB /* PBXTargetDependency */,
+			);
+			name = "Universal Library";
+			productName = "Universal Library";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		415DA7D718D7300E009D22FA /* SwarmSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7D618D7300E009D22FA /* SwarmSDK.m */; };
+		415DA7E418D73017009D22FA /* BLESBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7D818D73017009D22FA /* BLESBeacon.m */; };
+		415DA7E518D73017009D22FA /* BLESCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7D918D73017009D22FA /* BLESCampaign.m */; };
+		415DA7E618D73017009D22FA /* BLESBeaconContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7DA18D73017009D22FA /* BLESBeaconContainer.m */; };
+		415DA7E718D73017009D22FA /* SWARMAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7DB18D73017009D22FA /* SWARMAction.m */; };
+		415DA7E818D73017009D22FA /* SWARMActionReaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7DD18D73017009D22FA /* SWARMActionReaction.m */; };
+		415DA7E918D73017009D22FA /* BLESCustomerLocationEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7DE18D73017009D22FA /* BLESCustomerLocationEvent.m */; };
+		415DA7EA18D73017009D22FA /* BLESMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7DF18D73017009D22FA /* BLESMock.m */; };
+		415DA7EB18D73017009D22FA /* BLESUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7E018D73017009D22FA /* BLESUserProfile.m */; };
+		415DA7EC18D73017009D22FA /* SWARMBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7E118D73017009D22FA /* SWARMBeacon.m */; };
+		415DA7ED18D73017009D22FA /* SWARMSourceSegmentVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7E218D73017009D22FA /* SWARMSourceSegmentVector.m */; };
+		415DA7EE18D73017009D22FA /* SWARMUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7E318D73017009D22FA /* SWARMUserProfile.m */; };
+		415DA7F218D73052009D22FA /* SWARMLocationInformaion.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7F018D73052009D22FA /* SWARMLocationInformaion.m */; };
+		415DA7F318D73052009D22FA /* SWARMWhatIsHereInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7F118D73052009D22FA /* SWARMWhatIsHereInformation.m */; };
+		415DA7F918D73064009D22FA /* SWARMIabCategorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7F418D73064009D22FA /* SWARMIabCategorization.m */; };
+		415DA7FA18D73064009D22FA /* SWARMNaicsCategorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7F518D73064009D22FA /* SWARMNaicsCategorization.m */; };
+		415DA7FB18D73064009D22FA /* SWARMSicCodeCategorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7F618D73064009D22FA /* SWARMSicCodeCategorization.m */; };
+		415DA7FC18D73064009D22FA /* SWARMStoreCategorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7F718D73064009D22FA /* SWARMStoreCategorization.m */; };
+		415DA7FD18D73064009D22FA /* SWARMStoreCategoryBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7F818D73064009D22FA /* SWARMStoreCategoryBase.m */; };
+		415DA80718D7306D009D22FA /* SWARMActionForMeRequestRestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7FE18D7306D009D22FA /* SWARMActionForMeRequestRestHelper.m */; };
+		415DA80818D7306D009D22FA /* BLESRequestCouponForCampaignRestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA7FF18D7306D009D22FA /* BLESRequestCouponForCampaignRestHelper.m */; };
+		415DA80918D7306D009D22FA /* BLESRestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA80018D7306D009D22FA /* BLESRestApi.m */; };
+		415DA80A18D7306D009D22FA /* BLESWhatIsHereRestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA80118D7306D009D22FA /* BLESWhatIsHereRestHelper.m */; };
+		415DA80B18D7306D009D22FA /* BLESWhereAmIRestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA80218D7306D009D22FA /* BLESWhereAmIRestHelper.m */; };
+		415DA80C18D7306D009D22FA /* BLESSwarmLoginRestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA80318D7306D009D22FA /* BLESSwarmLoginRestHelper.m */; };
+		415DA80D18D7306D009D22FA /* SWARMHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA80418D7306D009D22FA /* SWARMHelpers.m */; };
+		415DA80E18D7306D009D22FA /* SWARMHmacHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA80518D7306D009D22FA /* SWARMHmacHelper.m */; };
+		415DA80F18D7306D009D22FA /* SWARMActionReactionRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA80618D7306D009D22FA /* SWARMActionReactionRequestHelper.m */; };
+		415DA81218D73074009D22FA /* BLESReachabilityChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA81018D73074009D22FA /* BLESReachabilityChecker.m */; };
+		415DA81318D73074009D22FA /* SWARMReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 415DA81118D73074009D22FA /* SWARMReachability.m */; };
+		416BC21618A92F4600D0E360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416BC21518A92F4600D0E360 /* Foundation.framework */; };
+		416BC22418A92F4600D0E360 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416BC22318A92F4600D0E360 /* XCTest.framework */; };
+		416BC22518A92F4600D0E360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416BC21518A92F4600D0E360 /* Foundation.framework */; };
+		41C10C8E18B611E900EE2AAE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C10C8D18B611E900EE2AAE /* SystemConfiguration.framework */; };
+		41F919D418AD1DB20052F0E2 /* SwarmSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F919D218AD1DB20052F0E2 /* SwarmSDKTests.m */; };
+		41F919D718AD1DD30052F0E2 /* BLESBeaconTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F919D518AD1DD30052F0E2 /* BLESBeaconTest.m */; };
+		41F919D818AD1DD30052F0E2 /* BLESSourceSegmentVectorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F919D618AD1DD30052F0E2 /* BLESSourceSegmentVectorTest.m */; };
+		41F919DA18AD1DD90052F0E2 /* SwarmSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F919D918AD1DD90052F0E2 /* SwarmSDKTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		416BC22818A92F4600D0E360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416BC20A18A92F4600D0E360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416BC21118A92F4600D0E360;
+			remoteInfo = SwarmSDK;
+		};
+		41C4B5BD18B794E000A9B4DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416BC20A18A92F4600D0E360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416BC21118A92F4600D0E360;
+			remoteInfo = SwarmSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		416BC21018A92F4600D0E360 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		415DA7D618D7300E009D22FA /* SwarmSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwarmSDK.m; path = SDK/SwarmSDK.m; sourceTree = SOURCE_ROOT; };
+		415DA7D818D73017009D22FA /* BLESBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESBeacon.m; path = Entities/BLESBeacon.m; sourceTree = SOURCE_ROOT; };
+		415DA7D918D73017009D22FA /* BLESCampaign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESCampaign.m; path = Entities/BLESCampaign.m; sourceTree = SOURCE_ROOT; };
+		415DA7DA18D73017009D22FA /* BLESBeaconContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESBeaconContainer.m; path = Entities/BLESBeaconContainer.m; sourceTree = SOURCE_ROOT; };
+		415DA7DB18D73017009D22FA /* SWARMAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMAction.m; path = Entities/SWARMAction.m; sourceTree = SOURCE_ROOT; };
+		415DA7DC18D73017009D22FA /* SWARMActionReaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWARMActionReaction.h; path = Entities/SWARMActionReaction.h; sourceTree = SOURCE_ROOT; };
+		415DA7DD18D73017009D22FA /* SWARMActionReaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMActionReaction.m; path = Entities/SWARMActionReaction.m; sourceTree = SOURCE_ROOT; };
+		415DA7DE18D73017009D22FA /* BLESCustomerLocationEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESCustomerLocationEvent.m; path = Entities/BLESCustomerLocationEvent.m; sourceTree = SOURCE_ROOT; };
+		415DA7DF18D73017009D22FA /* BLESMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESMock.m; path = Entities/BLESMock.m; sourceTree = SOURCE_ROOT; };
+		415DA7E018D73017009D22FA /* BLESUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESUserProfile.m; path = Entities/BLESUserProfile.m; sourceTree = SOURCE_ROOT; };
+		415DA7E118D73017009D22FA /* SWARMBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMBeacon.m; path = Entities/SWARMBeacon.m; sourceTree = SOURCE_ROOT; };
+		415DA7E218D73017009D22FA /* SWARMSourceSegmentVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMSourceSegmentVector.m; path = Entities/SWARMSourceSegmentVector.m; sourceTree = SOURCE_ROOT; };
+		415DA7E318D73017009D22FA /* SWARMUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMUserProfile.m; path = Swarm/SWARMUserProfile.m; sourceTree = SOURCE_ROOT; };
+		415DA7F018D73052009D22FA /* SWARMLocationInformaion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMLocationInformaion.m; path = Swarm/SWARMLocationInformaion.m; sourceTree = SOURCE_ROOT; };
+		415DA7F118D73052009D22FA /* SWARMWhatIsHereInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMWhatIsHereInformation.m; path = Swarm/SWARMWhatIsHereInformation.m; sourceTree = SOURCE_ROOT; };
+		415DA7F418D73064009D22FA /* SWARMIabCategorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMIabCategorization.m; path = StoreCategorization/SWARMIabCategorization.m; sourceTree = SOURCE_ROOT; };
+		415DA7F518D73064009D22FA /* SWARMNaicsCategorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMNaicsCategorization.m; path = StoreCategorization/SWARMNaicsCategorization.m; sourceTree = SOURCE_ROOT; };
+		415DA7F618D73064009D22FA /* SWARMSicCodeCategorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMSicCodeCategorization.m; path = StoreCategorization/SWARMSicCodeCategorization.m; sourceTree = SOURCE_ROOT; };
+		415DA7F718D73064009D22FA /* SWARMStoreCategorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMStoreCategorization.m; path = StoreCategorization/SWARMStoreCategorization.m; sourceTree = SOURCE_ROOT; };
+		415DA7F818D73064009D22FA /* SWARMStoreCategoryBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMStoreCategoryBase.m; path = StoreCategorization/SWARMStoreCategoryBase.m; sourceTree = SOURCE_ROOT; };
+		415DA7FE18D7306D009D22FA /* SWARMActionForMeRequestRestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMActionForMeRequestRestHelper.m; path = Helpers/SWARMActionForMeRequestRestHelper.m; sourceTree = SOURCE_ROOT; };
+		415DA7FF18D7306D009D22FA /* BLESRequestCouponForCampaignRestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESRequestCouponForCampaignRestHelper.m; path = Helpers/BLESRequestCouponForCampaignRestHelper.m; sourceTree = SOURCE_ROOT; };
+		415DA80018D7306D009D22FA /* BLESRestApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESRestApi.m; path = Helpers/BLESRestApi.m; sourceTree = SOURCE_ROOT; };
+		415DA80118D7306D009D22FA /* BLESWhatIsHereRestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESWhatIsHereRestHelper.m; path = Helpers/BLESWhatIsHereRestHelper.m; sourceTree = SOURCE_ROOT; };
+		415DA80218D7306D009D22FA /* BLESWhereAmIRestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESWhereAmIRestHelper.m; path = Helpers/BLESWhereAmIRestHelper.m; sourceTree = SOURCE_ROOT; };
+		415DA80318D7306D009D22FA /* BLESSwarmLoginRestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESSwarmLoginRestHelper.m; path = Helpers/BLESSwarmLoginRestHelper.m; sourceTree = SOURCE_ROOT; };
+		415DA80418D7306D009D22FA /* SWARMHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMHelpers.m; path = Helpers/SWARMHelpers.m; sourceTree = SOURCE_ROOT; };
+		415DA80518D7306D009D22FA /* SWARMHmacHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMHmacHelper.m; path = Helpers/SWARMHmacHelper.m; sourceTree = SOURCE_ROOT; };
+		415DA80618D7306D009D22FA /* SWARMActionReactionRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMActionReactionRequestHelper.m; path = Helpers/SWARMActionReactionRequestHelper.m; sourceTree = SOURCE_ROOT; };
+		415DA81018D73074009D22FA /* BLESReachabilityChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESReachabilityChecker.m; path = Reachability/BLESReachabilityChecker.m; sourceTree = SOURCE_ROOT; };
+		415DA81118D73074009D22FA /* SWARMReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMReachability.m; path = Reachability/SWARMReachability.m; sourceTree = SOURCE_ROOT; };
+		415DA81618D73093009D22FA /* SwarmSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwarmSDK.h; path = SDK/Include/SwarmSDK.h; sourceTree = SOURCE_ROOT; };
+		415DA81718D73093009D22FA /* SwarmSDKConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwarmSDKConfiguration.h; path = SDK/Include/SwarmSDKConfiguration.h; sourceTree = SOURCE_ROOT; };
+		415DA81918D730A5009D22FA /* BLESBeacon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESBeacon.h; path = Entities/Include/BLESBeacon.h; sourceTree = SOURCE_ROOT; };
+		415DA81A18D730A5009D22FA /* SWARMBeacon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMBeacon.h; path = Entities/Include/SWARMBeacon.h; sourceTree = SOURCE_ROOT; };
+		415DA81B18D730A5009D22FA /* BLESUserProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESUserProfile.h; path = Entities/Include/BLESUserProfile.h; sourceTree = SOURCE_ROOT; };
+		415DA81C18D730A5009D22FA /* BLESBeaconContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESBeaconContainer.h; path = Entities/Include/BLESBeaconContainer.h; sourceTree = SOURCE_ROOT; };
+		415DA81D18D730A5009D22FA /* BLESCustomerLocationEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESCustomerLocationEvent.h; path = Entities/Include/BLESCustomerLocationEvent.h; sourceTree = SOURCE_ROOT; };
+		415DA81E18D730A5009D22FA /* BLESMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESMock.h; path = Entities/Include/BLESMock.h; sourceTree = SOURCE_ROOT; };
+		415DA81F18D730A5009D22FA /* SWARMAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMAction.h; path = Entities/Include/SWARMAction.h; sourceTree = SOURCE_ROOT; };
+		415DA82018D730A5009D22FA /* SWARMSourceSegmentVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMSourceSegmentVector.h; path = Entities/Include/SWARMSourceSegmentVector.h; sourceTree = SOURCE_ROOT; };
+		415DA82118D730A5009D22FA /* BLESCampaign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESCampaign.h; path = Entities/Include/BLESCampaign.h; sourceTree = SOURCE_ROOT; };
+		415DA82418D730E3009D22FA /* SWARMLocationInformaion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMLocationInformaion.h; path = Swarm/Include/SWARMLocationInformaion.h; sourceTree = SOURCE_ROOT; };
+		415DA82518D730E3009D22FA /* SWARMWhatIsHereInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMWhatIsHereInformation.h; path = Swarm/Include/SWARMWhatIsHereInformation.h; sourceTree = SOURCE_ROOT; };
+		415DA82618D730E3009D22FA /* SWARMUserProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMUserProfile.h; path = Swarm/Include/SWARMUserProfile.h; sourceTree = SOURCE_ROOT; };
+		415DA82818D730F5009D22FA /* SWARMIabCategorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMIabCategorization.h; path = StoreCategorization/Include/SWARMIabCategorization.h; sourceTree = SOURCE_ROOT; };
+		415DA82918D730F5009D22FA /* SWARMNaicsCategorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMNaicsCategorization.h; path = StoreCategorization/Include/SWARMNaicsCategorization.h; sourceTree = SOURCE_ROOT; };
+		415DA82A18D730F5009D22FA /* SWARMSicCodeCategorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMSicCodeCategorization.h; path = StoreCategorization/Include/SWARMSicCodeCategorization.h; sourceTree = SOURCE_ROOT; };
+		415DA82B18D730F5009D22FA /* SWARMStoreCategorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMStoreCategorization.h; path = StoreCategorization/Include/SWARMStoreCategorization.h; sourceTree = SOURCE_ROOT; };
+		415DA82C18D730F5009D22FA /* SWARMStoreCategoryBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMStoreCategoryBase.h; path = StoreCategorization/Include/SWARMStoreCategoryBase.h; sourceTree = SOURCE_ROOT; };
+		415DA82E18D73108009D22FA /* SWARMActionReactionRequestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMActionReactionRequestHelper.h; path = Helpers/SWARMActionReactionRequestHelper.h; sourceTree = SOURCE_ROOT; };
+		415DA82F18D73108009D22FA /* SWARMActionForMeRequestRestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMActionForMeRequestRestHelper.h; path = Helpers/SWARMActionForMeRequestRestHelper.h; sourceTree = SOURCE_ROOT; };
+		415DA83018D73108009D22FA /* BLESRequestCouponForCampaignRestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESRequestCouponForCampaignRestHelper.h; path = Helpers/BLESRequestCouponForCampaignRestHelper.h; sourceTree = SOURCE_ROOT; };
+		415DA83118D73108009D22FA /* BLESRestApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESRestApi.h; path = Helpers/BLESRestApi.h; sourceTree = SOURCE_ROOT; };
+		415DA83218D73108009D22FA /* BLESUrlDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESUrlDefinitions.h; path = Helpers/BLESUrlDefinitions.h; sourceTree = SOURCE_ROOT; };
+		415DA83318D73108009D22FA /* BLESWhatIsHereRestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESWhatIsHereRestHelper.h; path = Helpers/BLESWhatIsHereRestHelper.h; sourceTree = SOURCE_ROOT; };
+		415DA83418D73108009D22FA /* BLESWhereAmIRestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESWhereAmIRestHelper.h; path = Helpers/BLESWhereAmIRestHelper.h; sourceTree = SOURCE_ROOT; };
+		415DA83518D73108009D22FA /* BLESSwarmLoginRestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESSwarmLoginRestHelper.h; path = Helpers/BLESSwarmLoginRestHelper.h; sourceTree = SOURCE_ROOT; };
+		415DA83618D73108009D22FA /* SWARMHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMHelpers.h; path = Helpers/SWARMHelpers.h; sourceTree = SOURCE_ROOT; };
+		415DA83718D73108009D22FA /* SWARMHmacHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMHmacHelper.h; path = Helpers/SWARMHmacHelper.h; sourceTree = SOURCE_ROOT; };
+		415DA83918D7311D009D22FA /* BLESReachabilityChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESReachabilityChecker.h; path = Reachability/Include/BLESReachabilityChecker.h; sourceTree = SOURCE_ROOT; };
+		415DA83A18D7311D009D22FA /* SWARMReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMReachability.h; path = Reachability/Include/SWARMReachability.h; sourceTree = SOURCE_ROOT; };
+		416BC21218A92F4600D0E360 /* libSwarmSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwarmSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		416BC21518A92F4600D0E360 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		416BC22218A92F4600D0E360 /* SwarmSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwarmSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		416BC22318A92F4600D0E360 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		41C10C8D18B611E900EE2AAE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		41F4858018B6110B0006CCD6 /* SwarmSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwarmSDK-Prefix.pch"; sourceTree = "<group>"; };
+		41F919D118AD1DB20052F0E2 /* SwarmSDKTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SwarmSDKTests-Info.plist"; sourceTree = "<group>"; };
+		41F919D218AD1DB20052F0E2 /* SwarmSDKTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwarmSDKTests.m; sourceTree = "<group>"; };
+		41F919D518AD1DD30052F0E2 /* BLESBeaconTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLESBeaconTest.m; sourceTree = "<group>"; };
+		41F919D618AD1DD30052F0E2 /* BLESSourceSegmentVectorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLESSourceSegmentVectorTest.m; sourceTree = "<group>"; };
+		41F919D918AD1DD90052F0E2 /* SwarmSDKTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwarmSDKTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416BC20F18A92F4600D0E360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C10C8E18B611E900EE2AAE /* SystemConfiguration.framework in Frameworks */,
+				416BC21618A92F4600D0E360 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416BC21F18A92F4600D0E360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416BC22418A92F4600D0E360 /* XCTest.framework in Frameworks */,
+				416BC22518A92F4600D0E360 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415DA7D018D72F91009D22FA /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				415DA7D118D72F9E009D22FA /* SDK */,
+				415DA7D218D72FAB009D22FA /* Entities */,
+				415DA7EF18D73025009D22FA /* Swarm */,
+				415DA7D318D72FBF009D22FA /* StoreCategorizaion */,
+				415DA7D418D72FCD009D22FA /* Helpers */,
+				415DA7D518D72FD3009D22FA /* Reachability */,
+			);
+			name = Implementation;
+			sourceTree = "<group>";
+		};
+		415DA7D118D72F9E009D22FA /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				415DA7D618D7300E009D22FA /* SwarmSDK.m */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		415DA7D218D72FAB009D22FA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				415DA7D818D73017009D22FA /* BLESBeacon.m */,
+				415DA7D918D73017009D22FA /* BLESCampaign.m */,
+				415DA7DA18D73017009D22FA /* BLESBeaconContainer.m */,
+				415DA7DB18D73017009D22FA /* SWARMAction.m */,
+				415DA7DC18D73017009D22FA /* SWARMActionReaction.h */,
+				415DA7DD18D73017009D22FA /* SWARMActionReaction.m */,
+				415DA7DE18D73017009D22FA /* BLESCustomerLocationEvent.m */,
+				415DA7DF18D73017009D22FA /* BLESMock.m */,
+				415DA7E018D73017009D22FA /* BLESUserProfile.m */,
+				415DA7E118D73017009D22FA /* SWARMBeacon.m */,
+				415DA7E218D73017009D22FA /* SWARMSourceSegmentVector.m */,
+				415DA7E318D73017009D22FA /* SWARMUserProfile.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		415DA7D318D72FBF009D22FA /* StoreCategorizaion */ = {
+			isa = PBXGroup;
+			children = (
+				415DA7F418D73064009D22FA /* SWARMIabCategorization.m */,
+				415DA7F518D73064009D22FA /* SWARMNaicsCategorization.m */,
+				415DA7F618D73064009D22FA /* SWARMSicCodeCategorization.m */,
+				415DA7F718D73064009D22FA /* SWARMStoreCategorization.m */,
+				415DA7F818D73064009D22FA /* SWARMStoreCategoryBase.m */,
+			);
+			name = StoreCategorizaion;
+			sourceTree = "<group>";
+		};
+		415DA7D418D72FCD009D22FA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				415DA7FE18D7306D009D22FA /* SWARMActionForMeRequestRestHelper.m */,
+				415DA7FF18D7306D009D22FA /* BLESRequestCouponForCampaignRestHelper.m */,
+				415DA80018D7306D009D22FA /* BLESRestApi.m */,
+				415DA80118D7306D009D22FA /* BLESWhatIsHereRestHelper.m */,
+				415DA80218D7306D009D22FA /* BLESWhereAmIRestHelper.m */,
+				415DA80318D7306D009D22FA /* BLESSwarmLoginRestHelper.m */,
+				415DA80418D7306D009D22FA /* SWARMHelpers.m */,
+				415DA80518D7306D009D22FA /* SWARMHmacHelper.m */,
+				415DA80618D7306D009D22FA /* SWARMActionReactionRequestHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		415DA7D518D72FD3009D22FA /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				415DA81018D73074009D22FA /* BLESReachabilityChecker.m */,
+				415DA81118D73074009D22FA /* SWARMReachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		415DA7EF18D73025009D22FA /* Swarm */ = {
+			isa = PBXGroup;
+			children = (
+				415DA7F018D73052009D22FA /* SWARMLocationInformaion.m */,
+				415DA7F118D73052009D22FA /* SWARMWhatIsHereInformation.m */,
+			);
+			name = Swarm;
+			sourceTree = "<group>";
+		};
+		415DA81418D73080009D22FA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				415DA83818D7310D009D22FA /* Reachability */,
+				415DA82D18D730FB009D22FA /* Helpers */,
+				415DA82718D730E7009D22FA /* StoreCategorization */,
+				415DA82318D730D0009D22FA /* Swarm */,
+				415DA81518D73088009D22FA /* SDK */,
+				415DA81818D73095009D22FA /* Entities */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		415DA81518D73088009D22FA /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				415DA81618D73093009D22FA /* SwarmSDK.h */,
+				415DA81718D73093009D22FA /* SwarmSDKConfiguration.h */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		415DA81818D73095009D22FA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				415DA81918D730A5009D22FA /* BLESBeacon.h */,
+				415DA81A18D730A5009D22FA /* SWARMBeacon.h */,
+				415DA81B18D730A5009D22FA /* BLESUserProfile.h */,
+				415DA81C18D730A5009D22FA /* BLESBeaconContainer.h */,
+				415DA81D18D730A5009D22FA /* BLESCustomerLocationEvent.h */,
+				415DA81E18D730A5009D22FA /* BLESMock.h */,
+				415DA81F18D730A5009D22FA /* SWARMAction.h */,
+				415DA82018D730A5009D22FA /* SWARMSourceSegmentVector.h */,
+				415DA82118D730A5009D22FA /* BLESCampaign.h */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		415DA82318D730D0009D22FA /* Swarm */ = {
+			isa = PBXGroup;
+			children = (
+				415DA82418D730E3009D22FA /* SWARMLocationInformaion.h */,
+				415DA82518D730E3009D22FA /* SWARMWhatIsHereInformation.h */,
+				415DA82618D730E3009D22FA /* SWARMUserProfile.h */,
+			);
+			name = Swarm;
+			sourceTree = "<group>";
+		};
+		415DA82718D730E7009D22FA /* StoreCategorization */ = {
+			isa = PBXGroup;
+			children = (
+				415DA82818D730F5009D22FA /* SWARMIabCategorization.h */,
+				415DA82918D730F5009D22FA /* SWARMNaicsCategorization.h */,
+				415DA82A18D730F5009D22FA /* SWARMSicCodeCategorization.h */,
+				415DA82B18D730F5009D22FA /* SWARMStoreCategorization.h */,
+				415DA82C18D730F5009D22FA /* SWARMStoreCategoryBase.h */,
+			);
+			name = StoreCategorization;
+			sourceTree = "<group>";
+		};
+		415DA82D18D730FB009D22FA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				415DA82E18D73108009D22FA /* SWARMActionReactionRequestHelper.h */,
+				415DA82F18D73108009D22FA /* SWARMActionForMeRequestRestHelper.h */,
+				415DA83018D73108009D22FA /* BLESRequestCouponForCampaignRestHelper.h */,
+				415DA83118D73108009D22FA /* BLESRestApi.h */,
+				415DA83218D73108009D22FA /* BLESUrlDefinitions.h */,
+				415DA83318D73108009D22FA /* BLESWhatIsHereRestHelper.h */,
+				415DA83418D73108009D22FA /* BLESWhereAmIRestHelper.h */,
+				415DA83518D73108009D22FA /* BLESSwarmLoginRestHelper.h */,
+				415DA83618D73108009D22FA /* SWARMHelpers.h */,
+				415DA83718D73108009D22FA /* SWARMHmacHelper.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		415DA83818D7310D009D22FA /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				415DA83918D7311D009D22FA /* BLESReachabilityChecker.h */,
+				415DA83A18D7311D009D22FA /* SWARMReachability.h */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		416BC20918A92F4600D0E360 = {
+			isa = PBXGroup;
+			children = (
+				416BC21718A92F4600D0E360 /* SwarmSDK */,
+				416BC22B18A92F4600D0E360 /* SwarmSDKTests */,
+				416BC21418A92F4600D0E360 /* Frameworks */,
+				416BC21318A92F4600D0E360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		416BC21318A92F4600D0E360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416BC21218A92F4600D0E360 /* libSwarmSDK.a */,
+				416BC22218A92F4600D0E360 /* SwarmSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416BC21418A92F4600D0E360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C10C8D18B611E900EE2AAE /* SystemConfiguration.framework */,
+				416BC21518A92F4600D0E360 /* Foundation.framework */,
+				416BC22318A92F4600D0E360 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		416BC21718A92F4600D0E360 /* SwarmSDK */ = {
+			isa = PBXGroup;
+			children = (
+				415DA81418D73080009D22FA /* Headers */,
+				415DA7D018D72F91009D22FA /* Implementation */,
+				41F4857F18B6110B0006CCD6 /* SwarmSDK */,
+				416BC21818A92F4600D0E360 /* Supporting Files */,
+			);
+			path = SwarmSDK;
+			sourceTree = "<group>";
+		};
+		416BC21818A92F4600D0E360 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		416BC22B18A92F4600D0E360 /* SwarmSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				41F919D918AD1DD90052F0E2 /* SwarmSDKTests.m */,
+				41F919D518AD1DD30052F0E2 /* BLESBeaconTest.m */,
+				41F919D618AD1DD30052F0E2 /* BLESSourceSegmentVectorTest.m */,
+				41F919D218AD1DB20052F0E2 /* SwarmSDKTests.m */,
+				416BC22C18A92F4600D0E360 /* Supporting Files */,
+			);
+			path = SwarmSDKTests;
+			sourceTree = "<group>";
+		};
+		416BC22C18A92F4600D0E360 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41F919D118AD1DB20052F0E2 /* SwarmSDKTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41F4857F18B6110B0006CCD6 /* SwarmSDK */ = {
+			isa = PBXGroup;
+			children = (
+				41F4858018B6110B0006CCD6 /* SwarmSDK-Prefix.pch */,
+			);
+			name = SwarmSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416BC21118A92F4600D0E360 /* SwarmSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416BC23518A92F4600D0E360 /* Build configuration list for PBXNativeTarget "SwarmSDK" */;
+			buildPhases = (
+				416BC20E18A92F4600D0E360 /* Sources */,
+				416BC20F18A92F4600D0E360 /* Frameworks */,
+				416BC21018A92F4600D0E360 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwarmSDK;
+			productName = SwarmSDK;
+			productReference = 416BC21218A92F4600D0E360 /* libSwarmSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		416BC22118A92F4600D0E360 /* SwarmSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416BC23818A92F4600D0E360 /* Build configuration list for PBXNativeTarget "SwarmSDKTests" */;
+			buildPhases = (
+				416BC21E18A92F4600D0E360 /* Sources */,
+				416BC21F18A92F4600D0E360 /* Frameworks */,
+				416BC22018A92F4600D0E360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				416BC22918A92F4600D0E360 /* PBXTargetDependency */,
+			);
+			name = SwarmSDKTests;
+			productName = SwarmSDKTests;
+			productReference = 416BC22218A92F4600D0E360 /* SwarmSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416BC20A18A92F4600D0E360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Sonrisa;
+			};
+			buildConfigurationList = 416BC20D18A92F4600D0E360 /* Build configuration list for PBXProject "SwarmSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 416BC20918A92F4600D0E360;
+			productRefGroup = 416BC21318A92F4600D0E360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416BC21118A92F4600D0E360 /* SwarmSDK */,
+				416BC22118A92F4600D0E360 /* SwarmSDKTests */,
+				41C4B5B818B7947500A9B4DB /* Universal Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416BC22018A92F4600D0E360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41C4B5BC18B7947E00A9B4DB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "LIB_TARGET_NAME=\"SwarmSDK\"\n\nif [ \"${ACTION}\" = \"clean\" ]\nthen\necho \"Cleaning Libraries...\"\ncd \"${PROJECT_DIR}\"\nxcodebuild -target \"$LIB_TARGET_NAME\" -configuration ${CONFIGURATION} -sdk iphoneos clean\nxcodebuild -target \"$LIB_TARGET_NAME\" -configuration ${CONFIGURATION} -sdk iphonesimulator clean\nfi\n\nif [ \"${ACTION}\" = \"build\" ]\nthen\necho \"Building Libraries\"\ncd \"${PROJECT_DIR}\"\nxcodebuild -target \"$LIB_TARGET_NAME\" -configuration ${CONFIGURATION} -sdk iphoneos\necho ${CONFIGURATION}\nxcodebuild -target \"$LIB_TARGET_NAME\" -configuration ${CONFIGURATION} -sdk iphonesimulator\n\n\n# Check that this is what your static libraries are called\nARM_FILES=\"${PROJECT_DIR}/build/${CONFIGURATION}-iphoneos/lib${LIB_TARGET_NAME}.a\"\nI386_FILES=\"${PROJECT_DIR}/build/${CONFIGURATION}-iphonesimulator/lib${LIB_TARGET_NAME}.a\"\n\nmkdir -p \"${PROJECT_DIR}/build/Universal\"\n\necho \"Creating library...\"\nlipo -create \"$ARM_FILES\" \"$I386_FILES\" -o \"${PROJECT_DIR}/build/Universal/lib${PRODUCT_NAME}.a\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416BC20E18A92F4600D0E360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415DA80C18D7306D009D22FA /* BLESSwarmLoginRestHelper.m in Sources */,
+				415DA7FA18D73064009D22FA /* SWARMNaicsCategorization.m in Sources */,
+				415DA80B18D7306D009D22FA /* BLESWhereAmIRestHelper.m in Sources */,
+				415DA7EC18D73017009D22FA /* SWARMBeacon.m in Sources */,
+				415DA81318D73074009D22FA /* SWARMReachability.m in Sources */,
+				415DA80D18D7306D009D22FA /* SWARMHelpers.m in Sources */,
+				415DA7D718D7300E009D22FA /* SwarmSDK.m in Sources */,
+				415DA7EB18D73017009D22FA /* BLESUserProfile.m in Sources */,
+				415DA80F18D7306D009D22FA /* SWARMActionReactionRequestHelper.m in Sources */,
+				415DA80A18D7306D009D22FA /* BLESWhatIsHereRestHelper.m in Sources */,
+				415DA7E818D73017009D22FA /* SWARMActionReaction.m in Sources */,
+				415DA7FB18D73064009D22FA /* SWARMSicCodeCategorization.m in Sources */,
+				415DA7E618D73017009D22FA /* BLESBeaconContainer.m in Sources */,
+				415DA80818D7306D009D22FA /* BLESRequestCouponForCampaignRestHelper.m in Sources */,
+				415DA7E418D73017009D22FA /* BLESBeacon.m in Sources */,
+				415DA7F918D73064009D22FA /* SWARMIabCategorization.m in Sources */,
+				415DA7E918D73017009D22FA /* BLESCustomerLocationEvent.m in Sources */,
+				415DA80718D7306D009D22FA /* SWARMActionForMeRequestRestHelper.m in Sources */,
+				415DA80E18D7306D009D22FA /* SWARMHmacHelper.m in Sources */,
+				415DA7EE18D73017009D22FA /* SWARMUserProfile.m in Sources */,
+				415DA7EA18D73017009D22FA /* BLESMock.m in Sources */,
+				415DA7F218D73052009D22FA /* SWARMLocationInformaion.m in Sources */,
+				415DA7FC18D73064009D22FA /* SWARMStoreCategorization.m in Sources */,
+				415DA7ED18D73017009D22FA /* SWARMSourceSegmentVector.m in Sources */,
+				415DA7E518D73017009D22FA /* BLESCampaign.m in Sources */,
+				415DA81218D73074009D22FA /* BLESReachabilityChecker.m in Sources */,
+				415DA7E718D73017009D22FA /* SWARMAction.m in Sources */,
+				415DA7F318D73052009D22FA /* SWARMWhatIsHereInformation.m in Sources */,
+				415DA80918D7306D009D22FA /* BLESRestApi.m in Sources */,
+				415DA7FD18D73064009D22FA /* SWARMStoreCategoryBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416BC21E18A92F4600D0E360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41F919D418AD1DB20052F0E2 /* SwarmSDKTests.m in Sources */,
+				41F919DA18AD1DD90052F0E2 /* SwarmSDKTests.m in Sources */,
+				41F919D718AD1DD30052F0E2 /* BLESBeaconTest.m in Sources */,
+				41F919D818AD1DD30052F0E2 /* BLESSourceSegmentVectorTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		416BC22918A92F4600D0E360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416BC21118A92F4600D0E360 /* SwarmSDK */;
+			targetProxy = 416BC22818A92F4600D0E360 /* PBXContainerItemProxy */;
+		};
+		41C4B5BE18B794E000A9B4DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416BC21118A92F4600D0E360 /* SwarmSDK */;
+			targetProxy = 41C4B5BD18B794E000A9B4DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		416BC23318A92F4600D0E360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-DReachability=SWARMReachability",
+					"-D_kReachabilityChangedNotification=_SWARMkReachabilityChangedNotification",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		416BC23418A92F4600D0E360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = (
+					"-DReachability=SWARMReachability",
+					"-D_kReachabilityChangedNotification=_SWARMkReachabilityChangedNotification",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		416BC23618A92F4600D0E360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SwarmSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmSDK/SwarmSDK-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = "";
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s armv64 x86_64 i386";
+				"VALID_ARCHS[sdk=iphoneos7.0]" = "arm64 armv7 armv7s armv64 x86_64 i386";
+				"VALID_ARCHS[sdk=iphonesimulator7.0]" = "arm64 armv7 armv7s armv64 x86_64 i386";
+			};
+			name = Debug;
+		};
+		416BC23718A92F4600D0E360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SwarmSDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmSDK/SwarmSDK-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALID_ARCHS = "";
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s i386 x86_64 armv64";
+				"VALID_ARCHS[sdk=iphoneos7.0]" = "arm64 armv7 armv7s armv64 x86_64 i386";
+				"VALID_ARCHS[sdk=iphonesimulator7.0]" = "arm64 armv7 armv7s armv64 x86_64 i386";
+			};
+			name = Release;
+		};
+		416BC23918A92F4600D0E360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmSDK/SwarmSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwarmSDKTests/SwarmSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s armv64 x86_64 i386";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		416BC23A18A92F4600D0E360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmSDK/SwarmSDK-Prefix.pch";
+				INFOPLIST_FILE = "SwarmSDKTests/SwarmSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s armv64 x86_64 i386";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		41C4B5BA18B7947500A9B4DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s armv64 x86_64 i386";
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s armv64 x86_64 i386";
+			};
+			name = Debug;
+		};
+		41C4B5BB18B7947500A9B4DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s armv64 i386 x86_64";
+				"VALID_ARCHS[sdk=*]" = "arm64 armv7 armv7s armv64 i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416BC20D18A92F4600D0E360 /* Build configuration list for PBXProject "SwarmSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416BC23318A92F4600D0E360 /* Debug */,
+				416BC23418A92F4600D0E360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416BC23518A92F4600D0E360 /* Build configuration list for PBXNativeTarget "SwarmSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416BC23618A92F4600D0E360 /* Debug */,
+				416BC23718A92F4600D0E360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416BC23818A92F4600D0E360 /* Build configuration list for PBXNativeTarget "SwarmSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416BC23918A92F4600D0E360 /* Debug */,
+				416BC23A18A92F4600D0E360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C4B5B918B7947500A9B4DB /* Build configuration list for PBXAggregateTarget "Universal Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C4B5BA18B7947500A9B4DB /* Debug */,
+				41C4B5BB18B7947500A9B4DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416BC20A18A92F4600D0E360 /* Project object */;
+}

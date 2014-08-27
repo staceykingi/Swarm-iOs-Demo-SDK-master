@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4102C27218EC18E20076D1D2 /* swarmSDKuni.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4102C27118EC18E20076D1D2 /* swarmSDKuni.a */; };
+		416BC28D18A9345300D0E360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416BC28C18A9345300D0E360 /* Foundation.framework */; };
+		416BC28F18A9345300D0E360 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416BC28E18A9345300D0E360 /* CoreGraphics.framework */; };
+		416BC29118A9345300D0E360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416BC29018A9345300D0E360 /* UIKit.framework */; };
+		416BC29718A9345300D0E360 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416BC29518A9345300D0E360 /* InfoPlist.strings */; };
+		416BC29918A9345300D0E360 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC29818A9345300D0E360 /* main.m */; };
+		416BC29D18A9345300D0E360 /* SWSDKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC29C18A9345300D0E360 /* SWSDKAppDelegate.m */; };
+		416BC2A018A9345300D0E360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 416BC29E18A9345300D0E360 /* Main.storyboard */; };
+		416BC2A518A9345300D0E360 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416BC2A418A9345300D0E360 /* Images.xcassets */; };
+		416BC2AC18A9345300D0E360 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416BC2AB18A9345300D0E360 /* XCTest.framework */; };
+		416BC2AD18A9345300D0E360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416BC28C18A9345300D0E360 /* Foundation.framework */; };
+		416BC2AE18A9345300D0E360 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416BC29018A9345300D0E360 /* UIKit.framework */; };
+		416BC2B618A9345400D0E360 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416BC2B418A9345400D0E360 /* InfoPlist.strings */; };
+		416BC2B818A9345400D0E360 /* SwarmSDKSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416BC2B718A9345400D0E360 /* SwarmSDKSampleTests.m */; };
+		416BC2D318A9389900D0E360 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416BC2D218A9389900D0E360 /* SystemConfiguration.framework */; };
+		41C10D3018B6259400EE2AAE /* SWSDKDemoSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D2F18B6259400EE2AAE /* SWSDKDemoSession.m */; };
+		41C10D3418B62A2700EE2AAE /* SWSDKWhereAmIDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D3318B62A2700EE2AAE /* SWSDKWhereAmIDemoViewController.m */; };
+		41C10D7E18B6456400EE2AAE /* SWSDKRequestMyWalletDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D7D18B6456400EE2AAE /* SWSDKRequestMyWalletDemoViewController.m */; };
+		41C10D8118B6458700EE2AAE /* SWSDKWhatIsHereDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D8018B6458700EE2AAE /* SWSDKWhatIsHereDemoViewController.m */; };
+		41C10D8518B6506200EE2AAE /* SWSDKStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D8418B6506200EE2AAE /* SWSDKStartViewController.m */; };
+		41C10D8818B65B0A00EE2AAE /* SWSDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D8718B65B0A00EE2AAE /* SWSDKViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		416BC2AF18A9345300D0E360 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416BC28118A9345300D0E360 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416BC28818A9345300D0E360;
+			remoteInfo = SwarmSDKSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4102C27118EC18E20076D1D2 /* swarmSDKuni.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = swarmSDKuni.a; path = SwarmSDKSample/SDK/Implementation/swarmSDKuni.a; sourceTree = "<group>"; };
+		413E185A18EECFF600F5D982 /* SWARMLocationInformaion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMLocationInformaion.h; path = SDK/Headers/Swarm/SWARMLocationInformaion.h; sourceTree = "<group>"; };
+		416BC28918A9345300D0E360 /* SwarmSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		416BC28C18A9345300D0E360 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		416BC28E18A9345300D0E360 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		416BC29018A9345300D0E360 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		416BC29418A9345300D0E360 /* SwarmSDKSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwarmSDKSample-Info.plist"; sourceTree = "<group>"; };
+		416BC29618A9345300D0E360 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		416BC29818A9345300D0E360 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		416BC29A18A9345300D0E360 /* SwarmSDKSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwarmSDKSample-Prefix.pch"; sourceTree = "<group>"; };
+		416BC29B18A9345300D0E360 /* SWSDKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWSDKAppDelegate.h; sourceTree = "<group>"; };
+		416BC29C18A9345300D0E360 /* SWSDKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWSDKAppDelegate.m; sourceTree = "<group>"; };
+		416BC29F18A9345300D0E360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		416BC2A418A9345300D0E360 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		416BC2AA18A9345300D0E360 /* SwarmSDKSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwarmSDKSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		416BC2AB18A9345300D0E360 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		416BC2B318A9345300D0E360 /* SwarmSDKSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwarmSDKSampleTests-Info.plist"; sourceTree = "<group>"; };
+		416BC2B518A9345400D0E360 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		416BC2B718A9345400D0E360 /* SwarmSDKSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwarmSDKSampleTests.m; sourceTree = "<group>"; };
+		416BC2D218A9389900D0E360 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4170664F18E3445E00AA5A69 /* SWARMReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMReachability.h; path = SDK/Headers/Reachability/SWARMReachability.h; sourceTree = "<group>"; };
+		41C10D2E18B6259400EE2AAE /* SWSDKDemoSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWSDKDemoSession.h; path = Persistence/SWSDKDemoSession.h; sourceTree = "<group>"; };
+		41C10D2F18B6259400EE2AAE /* SWSDKDemoSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWSDKDemoSession.m; path = Persistence/SWSDKDemoSession.m; sourceTree = "<group>"; };
+		41C10D3218B62A2700EE2AAE /* SWSDKWhereAmIDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWSDKWhereAmIDemoViewController.h; path = ViewControllers/SWSDKWhereAmIDemoViewController.h; sourceTree = "<group>"; };
+		41C10D3318B62A2700EE2AAE /* SWSDKWhereAmIDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWSDKWhereAmIDemoViewController.m; path = ViewControllers/SWSDKWhereAmIDemoViewController.m; sourceTree = "<group>"; };
+		41C10D7C18B6456400EE2AAE /* SWSDKRequestMyWalletDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWSDKRequestMyWalletDemoViewController.h; path = ViewControllers/SWSDKRequestMyWalletDemoViewController.h; sourceTree = "<group>"; };
+		41C10D7D18B6456400EE2AAE /* SWSDKRequestMyWalletDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWSDKRequestMyWalletDemoViewController.m; path = ViewControllers/SWSDKRequestMyWalletDemoViewController.m; sourceTree = "<group>"; };
+		41C10D7F18B6458700EE2AAE /* SWSDKWhatIsHereDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWSDKWhatIsHereDemoViewController.h; path = ViewControllers/SWSDKWhatIsHereDemoViewController.h; sourceTree = "<group>"; };
+		41C10D8018B6458700EE2AAE /* SWSDKWhatIsHereDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWSDKWhatIsHereDemoViewController.m; path = ViewControllers/SWSDKWhatIsHereDemoViewController.m; sourceTree = "<group>"; };
+		41C10D8318B6506200EE2AAE /* SWSDKStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWSDKStartViewController.h; path = ViewControllers/SWSDKStartViewController.h; sourceTree = "<group>"; };
+		41C10D8418B6506200EE2AAE /* SWSDKStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWSDKStartViewController.m; path = ViewControllers/SWSDKStartViewController.m; sourceTree = "<group>"; };
+		41C10D8618B65B0A00EE2AAE /* SWSDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWSDKViewController.h; path = ViewControllers/SWSDKViewController.h; sourceTree = "<group>"; };
+		41C10D8718B65B0A00EE2AAE /* SWSDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWSDKViewController.m; path = ViewControllers/SWSDKViewController.m; sourceTree = "<group>"; };
+		41D7350318D9BC4D00281CE8 /* SwarmSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwarmSDK.h; path = SDK/Headers/SDK/SwarmSDK.h; sourceTree = "<group>"; };
+		41D7350418D9BC4D00281CE8 /* SwarmSDKConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwarmSDKConfiguration.h; path = SDK/Headers/SDK/SwarmSDKConfiguration.h; sourceTree = "<group>"; };
+		41D7350518D9BC7800281CE8 /* BLESBeacon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESBeacon.h; path = SDK/Headers/Entities/BLESBeacon.h; sourceTree = "<group>"; };
+		41D7350618D9BC7800281CE8 /* BLESBeaconContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESBeaconContainer.h; path = SDK/Headers/Entities/BLESBeaconContainer.h; sourceTree = "<group>"; };
+		41D7350718D9BC7800281CE8 /* BLESCampaign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESCampaign.h; path = SDK/Headers/Entities/BLESCampaign.h; sourceTree = "<group>"; };
+		41D7350818D9BC7800281CE8 /* BLESCustomerLocationEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESCustomerLocationEvent.h; path = SDK/Headers/Entities/BLESCustomerLocationEvent.h; sourceTree = "<group>"; };
+		41D7350918D9BC7800281CE8 /* BLESMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESMock.h; path = SDK/Headers/Entities/BLESMock.h; sourceTree = "<group>"; };
+		41D7350A18D9BC7800281CE8 /* BLESUserProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESUserProfile.h; path = SDK/Headers/Entities/BLESUserProfile.h; sourceTree = "<group>"; };
+		41D7350B18D9BC7800281CE8 /* SWARMAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMAction.h; path = SDK/Headers/Entities/SWARMAction.h; sourceTree = "<group>"; };
+		41D7350C18D9BC7800281CE8 /* SWARMBeacon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMBeacon.h; path = SDK/Headers/Entities/SWARMBeacon.h; sourceTree = "<group>"; };
+		41D7350D18D9BC7800281CE8 /* SWARMSourceSegmentVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMSourceSegmentVector.h; path = SDK/Headers/Entities/SWARMSourceSegmentVector.h; sourceTree = "<group>"; };
+		41D7350F18D9BC9600281CE8 /* SWARMUserProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMUserProfile.h; path = SDK/Headers/Swarm/SWARMUserProfile.h; sourceTree = "<group>"; };
+		41D7351018D9BC9600281CE8 /* SWARMWhatIsHereInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMWhatIsHereInformation.h; path = SDK/Headers/Swarm/SWARMWhatIsHereInformation.h; sourceTree = "<group>"; };
+		41D7351118D9BCBB00281CE8 /* SWARMIabCategorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMIabCategorization.h; path = SDK/Headers/StoreCategorization/SWARMIabCategorization.h; sourceTree = "<group>"; };
+		41D7351218D9BCBB00281CE8 /* SWARMNaicsCategorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMNaicsCategorization.h; path = SDK/Headers/StoreCategorization/SWARMNaicsCategorization.h; sourceTree = "<group>"; };
+		41D7351318D9BCBB00281CE8 /* SWARMSicCodeCategorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMSicCodeCategorization.h; path = SDK/Headers/StoreCategorization/SWARMSicCodeCategorization.h; sourceTree = "<group>"; };
+		41D7351418D9BCBB00281CE8 /* SWARMStoreCategorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMStoreCategorization.h; path = SDK/Headers/StoreCategorization/SWARMStoreCategorization.h; sourceTree = "<group>"; };
+		41D7351518D9BCBB00281CE8 /* SWARMStoreCategoryBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMStoreCategoryBase.h; path = SDK/Headers/StoreCategorization/SWARMStoreCategoryBase.h; sourceTree = "<group>"; };
+		41D7351618D9BCD900281CE8 /* BLESRequestCouponForCampaignRestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESRequestCouponForCampaignRestHelper.h; path = SDK/Headers/Helpers/BLESRequestCouponForCampaignRestHelper.h; sourceTree = "<group>"; };
+		41D7351718D9BCD900281CE8 /* BLESRestApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESRestApi.h; path = SDK/Headers/Helpers/BLESRestApi.h; sourceTree = "<group>"; };
+		41D7351818D9BCD900281CE8 /* BLESSwarmLoginRestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESSwarmLoginRestHelper.h; path = SDK/Headers/Helpers/BLESSwarmLoginRestHelper.h; sourceTree = "<group>"; };
+		41D7351918D9BCD900281CE8 /* BLESUrlDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESUrlDefinitions.h; path = SDK/Headers/Helpers/BLESUrlDefinitions.h; sourceTree = "<group>"; };
+		41D7351A18D9BCD900281CE8 /* BLESWhatIsHereRestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESWhatIsHereRestHelper.h; path = SDK/Headers/Helpers/BLESWhatIsHereRestHelper.h; sourceTree = "<group>"; };
+		41D7351B18D9BCD900281CE8 /* BLESWhereAmIRestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESWhereAmIRestHelper.h; path = SDK/Headers/Helpers/BLESWhereAmIRestHelper.h; sourceTree = "<group>"; };
+		41D7351C18D9BCD900281CE8 /* SWARMActionForMeRequestRestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMActionForMeRequestRestHelper.h; path = SDK/Headers/Helpers/SWARMActionForMeRequestRestHelper.h; sourceTree = "<group>"; };
+		41D7351D18D9BCD900281CE8 /* SWARMActionReactionRequestHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMActionReactionRequestHelper.h; path = SDK/Headers/Helpers/SWARMActionReactionRequestHelper.h; sourceTree = "<group>"; };
+		41D7351E18D9BCD900281CE8 /* SWARMHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMHelpers.h; path = SDK/Headers/Helpers/SWARMHelpers.h; sourceTree = "<group>"; };
+		41D7351F18D9BCD900281CE8 /* SWARMHmacHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMHmacHelper.h; path = SDK/Headers/Helpers/SWARMHmacHelper.h; sourceTree = "<group>"; };
+		41D7352018D9BCF700281CE8 /* BLESReachabilityChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESReachabilityChecker.h; path = SDK/Headers/Reachability/BLESReachabilityChecker.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416BC28618A9345300D0E360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4102C27218EC18E20076D1D2 /* swarmSDKuni.a in Frameworks */,
+				416BC2D318A9389900D0E360 /* SystemConfiguration.framework in Frameworks */,
+				416BC28F18A9345300D0E360 /* CoreGraphics.framework in Frameworks */,
+				416BC29118A9345300D0E360 /* UIKit.framework in Frameworks */,
+				416BC28D18A9345300D0E360 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416BC2A718A9345300D0E360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416BC2AC18A9345300D0E360 /* XCTest.framework in Frameworks */,
+				416BC2AE18A9345300D0E360 /* UIKit.framework in Frameworks */,
+				416BC2AD18A9345300D0E360 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415DA83B18D740C9009D22FA /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				41D734B918D9A4C300281CE8 /* Implementation */,
+				41D7349318D9A2B500281CE8 /* Headers */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		416BC28018A9345300D0E360 = {
+			isa = PBXGroup;
+			children = (
+				416BC29218A9345300D0E360 /* SwarmSDKSample */,
+				416BC2B118A9345300D0E360 /* SwarmSDKSampleTests */,
+				416BC28B18A9345300D0E360 /* Frameworks */,
+				416BC28A18A9345300D0E360 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		416BC28A18A9345300D0E360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416BC28918A9345300D0E360 /* SwarmSDKSample.app */,
+				416BC2AA18A9345300D0E360 /* SwarmSDKSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416BC28B18A9345300D0E360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4102C27118EC18E20076D1D2 /* swarmSDKuni.a */,
+				416BC2D218A9389900D0E360 /* SystemConfiguration.framework */,
+				416BC28C18A9345300D0E360 /* Foundation.framework */,
+				416BC28E18A9345300D0E360 /* CoreGraphics.framework */,
+				416BC29018A9345300D0E360 /* UIKit.framework */,
+				416BC2AB18A9345300D0E360 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		416BC29218A9345300D0E360 /* SwarmSDKSample */ = {
+			isa = PBXGroup;
+			children = (
+				415DA83B18D740C9009D22FA /* SDK */,
+				41C10D7A18B6424C00EE2AAE /* AppBase */,
+				41C10D3118B6259900EE2AAE /* Persistence */,
+				416BC2C518A9356200D0E360 /* ViewControllers */,
+				416BC29E18A9345300D0E360 /* Main.storyboard */,
+				416BC2A418A9345300D0E360 /* Images.xcassets */,
+				416BC29318A9345300D0E360 /* Supporting Files */,
+			);
+			path = SwarmSDKSample;
+			sourceTree = "<group>";
+		};
+		416BC29318A9345300D0E360 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				416BC29418A9345300D0E360 /* SwarmSDKSample-Info.plist */,
+				416BC29518A9345300D0E360 /* InfoPlist.strings */,
+				416BC29818A9345300D0E360 /* main.m */,
+				416BC29A18A9345300D0E360 /* SwarmSDKSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		416BC2B118A9345300D0E360 /* SwarmSDKSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				416BC2B718A9345400D0E360 /* SwarmSDKSampleTests.m */,
+				416BC2B218A9345300D0E360 /* Supporting Files */,
+			);
+			path = SwarmSDKSampleTests;
+			sourceTree = "<group>";
+		};
+		416BC2B218A9345300D0E360 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				416BC2B318A9345300D0E360 /* SwarmSDKSampleTests-Info.plist */,
+				416BC2B418A9345400D0E360 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		416BC2C518A9356200D0E360 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D8218B6504300EE2AAE /* StartScreen */,
+				41C10D7B18B6429D00EE2AAE /* RequestMyWallet */,
+				41C10D7818B6420A00EE2AAE /* WhatIsHere */,
+				41C10D7918B6421600EE2AAE /* WhereAmI */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		41C10D3118B6259900EE2AAE /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D2E18B6259400EE2AAE /* SWSDKDemoSession.h */,
+				41C10D2F18B6259400EE2AAE /* SWSDKDemoSession.m */,
+			);
+			name = Persistence;
+			sourceTree = "<group>";
+		};
+		41C10D7818B6420A00EE2AAE /* WhatIsHere */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D7F18B6458700EE2AAE /* SWSDKWhatIsHereDemoViewController.h */,
+				41C10D8018B6458700EE2AAE /* SWSDKWhatIsHereDemoViewController.m */,
+			);
+			name = WhatIsHere;
+			sourceTree = "<group>";
+		};
+		41C10D7918B6421600EE2AAE /* WhereAmI */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D3218B62A2700EE2AAE /* SWSDKWhereAmIDemoViewController.h */,
+				41C10D3318B62A2700EE2AAE /* SWSDKWhereAmIDemoViewController.m */,
+			);
+			name = WhereAmI;
+			sourceTree = "<group>";
+		};
+		41C10D7A18B6424C00EE2AAE /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D8618B65B0A00EE2AAE /* SWSDKViewController.h */,
+				41C10D8718B65B0A00EE2AAE /* SWSDKViewController.m */,
+				416BC29B18A9345300D0E360 /* SWSDKAppDelegate.h */,
+				416BC29C18A9345300D0E360 /* SWSDKAppDelegate.m */,
+			);
+			name = AppBase;
+			sourceTree = "<group>";
+		};
+		41C10D7B18B6429D00EE2AAE /* RequestMyWallet */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D7C18B6456400EE2AAE /* SWSDKRequestMyWalletDemoViewController.h */,
+				41C10D7D18B6456400EE2AAE /* SWSDKRequestMyWalletDemoViewController.m */,
+			);
+			name = RequestMyWallet;
+			sourceTree = "<group>";
+		};
+		41C10D8218B6504300EE2AAE /* StartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D8318B6506200EE2AAE /* SWSDKStartViewController.h */,
+				41C10D8418B6506200EE2AAE /* SWSDKStartViewController.m */,
+			);
+			name = StartScreen;
+			sourceTree = "<group>";
+		};
+		41D7349318D9A2B500281CE8 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				41D734B618D9A31000281CE8 /* SDK */,
+				41D734AC18D9A2FF00281CE8 /* Entities */,
+				41D734A818D9A2EF00281CE8 /* Swarm */,
+				41D734A218D9A2DD00281CE8 /* StoreCategorization */,
+				41D7349718D9A2CF00281CE8 /* Helpers */,
+				41D7349418D9A2BF00281CE8 /* Reachability */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		41D7349418D9A2BF00281CE8 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				41D7352018D9BCF700281CE8 /* BLESReachabilityChecker.h */,
+				4170664F18E3445E00AA5A69 /* SWARMReachability.h */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		41D7349718D9A2CF00281CE8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				41D7351618D9BCD900281CE8 /* BLESRequestCouponForCampaignRestHelper.h */,
+				41D7351718D9BCD900281CE8 /* BLESRestApi.h */,
+				41D7351818D9BCD900281CE8 /* BLESSwarmLoginRestHelper.h */,
+				41D7351918D9BCD900281CE8 /* BLESUrlDefinitions.h */,
+				41D7351A18D9BCD900281CE8 /* BLESWhatIsHereRestHelper.h */,
+				41D7351B18D9BCD900281CE8 /* BLESWhereAmIRestHelper.h */,
+				41D7351C18D9BCD900281CE8 /* SWARMActionForMeRequestRestHelper.h */,
+				41D7351D18D9BCD900281CE8 /* SWARMActionReactionRequestHelper.h */,
+				41D7351E18D9BCD900281CE8 /* SWARMHelpers.h */,
+				41D7351F18D9BCD900281CE8 /* SWARMHmacHelper.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		41D734A218D9A2DD00281CE8 /* StoreCategorization */ = {
+			isa = PBXGroup;
+			children = (
+				41D7351118D9BCBB00281CE8 /* SWARMIabCategorization.h */,
+				41D7351218D9BCBB00281CE8 /* SWARMNaicsCategorization.h */,
+				41D7351318D9BCBB00281CE8 /* SWARMSicCodeCategorization.h */,
+				41D7351418D9BCBB00281CE8 /* SWARMStoreCategorization.h */,
+				41D7351518D9BCBB00281CE8 /* SWARMStoreCategoryBase.h */,
+			);
+			name = StoreCategorization;
+			sourceTree = "<group>";
+		};
+		41D734A818D9A2EF00281CE8 /* Swarm */ = {
+			isa = PBXGroup;
+			children = (
+				41D7350F18D9BC9600281CE8 /* SWARMUserProfile.h */,
+				41D7351018D9BC9600281CE8 /* SWARMWhatIsHereInformation.h */,
+				413E185A18EECFF600F5D982 /* SWARMLocationInformaion.h */,
+			);
+			name = Swarm;
+			sourceTree = "<group>";
+		};
+		41D734AC18D9A2FF00281CE8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				41D7350518D9BC7800281CE8 /* BLESBeacon.h */,
+				41D7350618D9BC7800281CE8 /* BLESBeaconContainer.h */,
+				41D7350718D9BC7800281CE8 /* BLESCampaign.h */,
+				41D7350818D9BC7800281CE8 /* BLESCustomerLocationEvent.h */,
+				41D7350918D9BC7800281CE8 /* BLESMock.h */,
+				41D7350A18D9BC7800281CE8 /* BLESUserProfile.h */,
+				41D7350B18D9BC7800281CE8 /* SWARMAction.h */,
+				41D7350C18D9BC7800281CE8 /* SWARMBeacon.h */,
+				41D7350D18D9BC7800281CE8 /* SWARMSourceSegmentVector.h */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		41D734B618D9A31000281CE8 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				41D7350318D9BC4D00281CE8 /* SwarmSDK.h */,
+				41D7350418D9BC4D00281CE8 /* SwarmSDKConfiguration.h */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		41D734B918D9A4C300281CE8 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				41D734D818D9A50E00281CE8 /* Swarm */,
+				41D734BE18D9A4EC00281CE8 /* Reachability */,
+				41D734BD18D9A4E600281CE8 /* Helpers */,
+				41D734BC18D9A4DD00281CE8 /* StoreCategorization */,
+				41D734BB18D9A4D800281CE8 /* Entities */,
+			);
+			name = Implementation;
+			sourceTree = "<group>";
+		};
+		41D734BB18D9A4D800281CE8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		41D734BC18D9A4DD00281CE8 /* StoreCategorization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = StoreCategorization;
+			sourceTree = "<group>";
+		};
+		41D734BD18D9A4E600281CE8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		41D734BE18D9A4EC00281CE8 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		41D734D818D9A50E00281CE8 /* Swarm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Swarm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416BC28818A9345300D0E360 /* SwarmSDKSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416BC2BB18A9345400D0E360 /* Build configuration list for PBXNativeTarget "SwarmSDKSample" */;
+			buildPhases = (
+				416BC28518A9345300D0E360 /* Sources */,
+				416BC28618A9345300D0E360 /* Frameworks */,
+				416BC28718A9345300D0E360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwarmSDKSample;
+			productName = SwarmSDKSample;
+			productReference = 416BC28918A9345300D0E360 /* SwarmSDKSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		416BC2A918A9345300D0E360 /* SwarmSDKSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416BC2BE18A9345400D0E360 /* Build configuration list for PBXNativeTarget "SwarmSDKSampleTests" */;
+			buildPhases = (
+				416BC2A618A9345300D0E360 /* Sources */,
+				416BC2A718A9345300D0E360 /* Frameworks */,
+				416BC2A818A9345300D0E360 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				416BC2B018A9345300D0E360 /* PBXTargetDependency */,
+			);
+			name = SwarmSDKSampleTests;
+			productName = SwarmSDKSampleTests;
+			productReference = 416BC2AA18A9345300D0E360 /* SwarmSDKSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416BC28118A9345300D0E360 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SWSDK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sonrisa;
+				TargetAttributes = {
+					416BC28818A9345300D0E360 = {
+						DevelopmentTeam = 7PR84M3HNK;
+					};
+					416BC2A918A9345300D0E360 = {
+						TestTargetID = 416BC28818A9345300D0E360;
+					};
+				};
+			};
+			buildConfigurationList = 416BC28418A9345300D0E360 /* Build configuration list for PBXProject "SwarmSDKSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 416BC28018A9345300D0E360;
+			productRefGroup = 416BC28A18A9345300D0E360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416BC28818A9345300D0E360 /* SwarmSDKSample */,
+				416BC2A918A9345300D0E360 /* SwarmSDKSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416BC28718A9345300D0E360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416BC2A518A9345300D0E360 /* Images.xcassets in Resources */,
+				416BC29718A9345300D0E360 /* InfoPlist.strings in Resources */,
+				416BC2A018A9345300D0E360 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416BC2A818A9345300D0E360 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416BC2B618A9345400D0E360 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416BC28518A9345300D0E360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C10D7E18B6456400EE2AAE /* SWSDKRequestMyWalletDemoViewController.m in Sources */,
+				41C10D8118B6458700EE2AAE /* SWSDKWhatIsHereDemoViewController.m in Sources */,
+				416BC29918A9345300D0E360 /* main.m in Sources */,
+				41C10D8818B65B0A00EE2AAE /* SWSDKViewController.m in Sources */,
+				416BC29D18A9345300D0E360 /* SWSDKAppDelegate.m in Sources */,
+				41C10D3418B62A2700EE2AAE /* SWSDKWhereAmIDemoViewController.m in Sources */,
+				41C10D8518B6506200EE2AAE /* SWSDKStartViewController.m in Sources */,
+				41C10D3018B6259400EE2AAE /* SWSDKDemoSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416BC2A618A9345300D0E360 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416BC2B818A9345400D0E360 /* SwarmSDKSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		416BC2B018A9345300D0E360 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416BC28818A9345300D0E360 /* SwarmSDKSample */;
+			targetProxy = 416BC2AF18A9345300D0E360 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		416BC29518A9345300D0E360 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416BC29618A9345300D0E360 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		416BC29E18A9345300D0E360 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416BC29F18A9345300D0E360 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		416BC2B418A9345400D0E360 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416BC2B518A9345400D0E360 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		416BC2B918A9345400D0E360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		416BC2BA18A9345400D0E360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		416BC2BC18A9345400D0E360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmSDKSample/SwarmSDKSample-Prefix.pch";
+				INFOPLIST_FILE = "SwarmSDKSample/SwarmSDKSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Requin/Code/SwarmSDKSample/SwarmSDKSample/SwarmSDKSample,
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SwarmSDK-gbpuxkqrnaapohamghrkmdvdxuer/Build/Products/Debug-iphoneos",
+					/Users/Requin/Code/SwarmSDKSample/SwarmSDKSample/SwarmSDKSample/include/SwarmSDK,
+					/Users/Requin/Code/SwarmSDKSample/SwarmSDKSample/SwarmSDKSample/include,
+					/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Universal,
+					"$(PROJECT_DIR)/SwarmSDKSample/SDK",
+					"$(PROJECT_DIR)/SwarmSDKSample",
+					/Users/Requin/Desktop/ssdkss/BeaconDemo/SwarmSDK/build/Universal,
+					"$(PROJECT_DIR)/SwarmSDKSample/SDK/Implementation",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		416BC2BD18A9345400D0E360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmSDKSample/SwarmSDKSample-Prefix.pch";
+				INFOPLIST_FILE = "SwarmSDKSample/SwarmSDKSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Requin/Code/SwarmSDKSample/SwarmSDKSample/SwarmSDKSample,
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SwarmSDK-gbpuxkqrnaapohamghrkmdvdxuer/Build/Products/Debug-iphoneos",
+					/Users/Requin/Code/SwarmSDKSample/SwarmSDKSample/SwarmSDKSample/include/SwarmSDK,
+					/Users/Requin/Code/SwarmSDKSample/SwarmSDKSample/SwarmSDKSample/include,
+					/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Universal,
+					"$(PROJECT_DIR)/SwarmSDKSample/SDK",
+					"$(PROJECT_DIR)/SwarmSDKSample",
+					/Users/Requin/Desktop/ssdkss/BeaconDemo/SwarmSDK/build/Universal,
+					"$(PROJECT_DIR)/SwarmSDKSample/SDK/Implementation",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		416BC2BF18A9345400D0E360 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwarmSDKSample.app/SwarmSDKSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmSDKSample/SwarmSDKSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwarmSDKSampleTests/SwarmSDKSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		416BC2C018A9345400D0E360 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwarmSDKSample.app/SwarmSDKSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwarmSDKSample/SwarmSDKSample-Prefix.pch";
+				INFOPLIST_FILE = "SwarmSDKSampleTests/SwarmSDKSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416BC28418A9345300D0E360 /* Build configuration list for PBXProject "SwarmSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416BC2B918A9345400D0E360 /* Debug */,
+				416BC2BA18A9345400D0E360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416BC2BB18A9345400D0E360 /* Build configuration list for PBXNativeTarget "SwarmSDKSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416BC2BC18A9345400D0E360 /* Debug */,
+				416BC2BD18A9345400D0E360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416BC2BE18A9345400D0E360 /* Build configuration list for PBXNativeTarget "SwarmSDKSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416BC2BF18A9345400D0E360 /* Debug */,
+				416BC2C018A9345400D0E360 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416BC28118A9345300D0E360 /* Project object */;
+}

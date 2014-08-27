@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>514B12F5-9ABB-4220-9AAE-EE11D69840B8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SWARMBeaconSimulation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E4B8FCA5-80B3-4506-8B49-C183452815E5</key>
+		<string>https://bitbucket.org/Requin/swarm-poc.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BeaconSimulator/SWARMBeaconSimulation/SWARMBeaconSimulation.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E4B8FCA5-80B3-4506-8B49-C183452815E5</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/Requin/swarm-poc.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E4B8FCA5-80B3-4506-8B49-C183452815E5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E4B8FCA5-80B3-4506-8B49-C183452815E5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BeaconDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

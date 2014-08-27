@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4112C1AE18BF493D00DDB6DF /* BLESSwarmLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4112C1AD18BF493D00DDB6DF /* BLESSwarmLoginViewController.m */; };
+		4112C1B218BF914900DDB6DF /* SWARMHmacHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4112C1B118BF914900DDB6DF /* SWARMHmacHelper.m */; };
+		4112C1B518BF973F00DDB6DF /* BLESCampaignRequestRestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4112C1B418BF973F00DDB6DF /* BLESCampaignRequestRestHelper.m */; };
+		4117FBA118C747B6000CE85D /* BLESWhatIsHereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4117FBA018C747B6000CE85D /* BLESWhatIsHereViewController.m */; };
+		4140D3D818AF78C400311E24 /* SWARMBeaconSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4140D3D718AF78C400311E24 /* SWARMBeaconSimulation.m */; };
+		415410F018B4C25F00C34F48 /* SWARMUserProfileTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 415410EF18B4C25F00C34F48 /* SWARMUserProfileTest.m */; };
+		416CDF26187C336800559550 /* BLESSourceSegmentVectorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CDF25187C336800559550 /* BLESSourceSegmentVectorTest.m */; };
+		416CDF28187C40B300559550 /* BLESCustomerLocationEventTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CDF27187C40B300559550 /* BLESCustomerLocationEventTest.m */; };
+		417FC2EE18C8C42D00CFE04F /* BLESUseActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417FC2ED18C8C42D00CFE04F /* BLESUseActionViewController.m */; };
+		41B7F67C18E97EB700458A6B /* SWARMReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B7F67B18E97EB700458A6B /* SWARMReachability.m */; };
+		41B9A3391858A663006D0214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B9A3381858A663006D0214 /* Foundation.framework */; };
+		41B9A33B1858A663006D0214 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B9A33A1858A663006D0214 /* CoreGraphics.framework */; };
+		41B9A33D1858A663006D0214 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B9A33C1858A663006D0214 /* UIKit.framework */; };
+		41B9A3431858A663006D0214 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41B9A3411858A663006D0214 /* InfoPlist.strings */; };
+		41B9A3451858A663006D0214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B9A3441858A663006D0214 /* main.m */; };
+		41B9A34C1858A663006D0214 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B9A34A1858A663006D0214 /* Main_iPhone.storyboard */; };
+		41B9A34F1858A663006D0214 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41B9A34D1858A663006D0214 /* Main_iPad.storyboard */; };
+		41B9A3541858A663006D0214 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B9A3531858A663006D0214 /* Images.xcassets */; };
+		41B9A35B1858A663006D0214 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B9A35A1858A663006D0214 /* XCTest.framework */; };
+		41B9A35C1858A663006D0214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B9A3381858A663006D0214 /* Foundation.framework */; };
+		41B9A35D1858A663006D0214 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41B9A33C1858A663006D0214 /* UIKit.framework */; };
+		41B9A3651858A663006D0214 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41B9A3631858A663006D0214 /* InfoPlist.strings */; };
+		41B9A3671858A663006D0214 /* BeaconDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B9A3661858A663006D0214 /* BeaconDemoTests.m */; };
+		41C10D4018B636F200EE2AAE /* BLESBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D3518B636F200EE2AAE /* BLESBeacon.m */; };
+		41C10D4118B636F200EE2AAE /* BLESBeaconContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D3618B636F200EE2AAE /* BLESBeaconContainer.m */; };
+		41C10D4218B636F200EE2AAE /* BLESCampaign.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D3718B636F200EE2AAE /* BLESCampaign.m */; };
+		41C10D4318B636F200EE2AAE /* SWARMAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D3818B636F200EE2AAE /* SWARMAction.m */; };
+		41C10D4418B636F200EE2AAE /* SWARMActionReaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D3A18B636F200EE2AAE /* SWARMActionReaction.m */; };
+		41C10D4518B636F200EE2AAE /* BLESCustomerLocationEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D3B18B636F200EE2AAE /* BLESCustomerLocationEvent.m */; };
+		41C10D4618B636F200EE2AAE /* BLESMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D3C18B636F200EE2AAE /* BLESMock.m */; };
+		41C10D4718B636F200EE2AAE /* BLESUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D3D18B636F200EE2AAE /* BLESUserProfile.m */; };
+		41C10D4818B636F200EE2AAE /* SWARMBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D3E18B636F200EE2AAE /* SWARMBeacon.m */; };
+		41C10D4918B636F200EE2AAE /* SWARMSourceSegmentVector.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D3F18B636F200EE2AAE /* SWARMSourceSegmentVector.m */; };
+		41C10D4D18B6370100EE2AAE /* SWARMLocationInformaion.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D4A18B6370100EE2AAE /* SWARMLocationInformaion.m */; };
+		41C10D4E18B6370100EE2AAE /* SWARMUserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D4B18B6370100EE2AAE /* SWARMUserProfile.m */; };
+		41C10D4F18B6370100EE2AAE /* SWARMWhatIsHereInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D4C18B6370100EE2AAE /* SWARMWhatIsHereInformation.m */; };
+		41C10D6018B6370F00EE2AAE /* SWARMActionReactionRequestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D5118B6370F00EE2AAE /* SWARMActionReactionRequestHelper.m */; };
+		41C10D6118B6370F00EE2AAE /* SWARMActionForMeRequestRestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D5318B6370F00EE2AAE /* SWARMActionForMeRequestRestHelper.m */; };
+		41C10D6218B6370F00EE2AAE /* BLESRequestCouponForCampaignRestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D5518B6370F00EE2AAE /* BLESRequestCouponForCampaignRestHelper.m */; };
+		41C10D6318B6370F00EE2AAE /* BLESRestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D5718B6370F00EE2AAE /* BLESRestApi.m */; };
+		41C10D6418B6370F00EE2AAE /* BLESWhatIsHereRestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D5A18B6370F00EE2AAE /* BLESWhatIsHereRestHelper.m */; };
+		41C10D6518B6370F00EE2AAE /* BLESWhereAmIRestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D5C18B6370F00EE2AAE /* BLESWhereAmIRestHelper.m */; };
+		41C10D6618B6370F00EE2AAE /* SWARMHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D5F18B6370F00EE2AAE /* SWARMHelpers.m */; };
+		41C10D6918B6371B00EE2AAE /* BLESReachabilityChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D6718B6371B00EE2AAE /* BLESReachabilityChecker.m */; };
+		41C10D7018B6372900EE2AAE /* SWARMIabCategorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D6B18B6372900EE2AAE /* SWARMIabCategorization.m */; };
+		41C10D7118B6372900EE2AAE /* SWARMNaicsCategorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D6C18B6372900EE2AAE /* SWARMNaicsCategorization.m */; };
+		41C10D7218B6372900EE2AAE /* SWARMSicCodeCategorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D6D18B6372900EE2AAE /* SWARMSicCodeCategorization.m */; };
+		41C10D7318B6372900EE2AAE /* SWARMStoreCategorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D6E18B6372900EE2AAE /* SWARMStoreCategorization.m */; };
+		41C10D7418B6372900EE2AAE /* SWARMStoreCategoryBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D6F18B6372900EE2AAE /* SWARMStoreCategoryBase.m */; };
+		41C10D7718B6375C00EE2AAE /* SwarmSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C10D7618B6375C00EE2AAE /* SwarmSDK.m */; };
+		41CB4E22187EE45600DCC198 /* BLESMockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CB4E21187EE45600DCC198 /* BLESMockTest.m */; };
+		41CB4E24187EE4DF00DCC198 /* BLESUserProfileTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CB4E23187EE4DF00DCC198 /* BLESUserProfileTest.m */; };
+		41CD6B0F18BB91C2008E3437 /* BLESSwarmLoginRestHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CD6B0E18BB91C2008E3437 /* BLESSwarmLoginRestHelper.m */; };
+		41CD6B1218BCD04D008E3437 /* SWARMBeaconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CD6B1118BCD04D008E3437 /* SWARMBeaconCell.m */; };
+		41CD6B1518BCD2A3008E3437 /* BLESBeaconsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CD6B1418BCD2A3008E3437 /* BLESBeaconsListViewController.m */; };
+		41CD6B1818BCE16A008E3437 /* BLESChangeUUIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CD6B1718BCE16A008E3437 /* BLESChangeUUIDViewController.m */; };
+		41D0C2DF1863330600BC3A0E /* SWARMActionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D0C2DE1863330600BC3A0E /* SWARMActionTest.m */; };
+		41F484FD18B60B360006CCD6 /* BLESCampaignCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F484F618B60B360006CCD6 /* BLESCampaignCell.m */; };
+		41F484FE18B60B360006CCD6 /* SWARMActionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F484F818B60B360006CCD6 /* SWARMActionCell.m */; };
+		41F484FF18B60B360006CCD6 /* BLESDemoRestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F484FA18B60B360006CCD6 /* BLESDemoRestApi.m */; };
+		41F4850018B60B360006CCD6 /* BLESDemoSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F484FC18B60B360006CCD6 /* BLESDemoSession.m */; };
+		41F4850318B60BDB0006CCD6 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F4850218B60BDB0006CCD6 /* ConfigViewController.m */; };
+		41F4850618B60C010006CCD6 /* SwarmSDKIntegrationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F4850518B60C010006CCD6 /* SwarmSDKIntegrationController.m */; };
+		41F4851518B60C4F0006CCD6 /* SWARMActionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F4850A18B60C4F0006CCD6 /* SWARMActionListViewController.m */; };
+		41F4851618B60C4F0006CCD6 /* SWARMActionsNearTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F4850C18B60C4F0006CCD6 /* SWARMActionsNearTVC.m */; };
+		41F4851718B60C4F0006CCD6 /* BLESQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F4850E18B60C4F0006CCD6 /* BLESQRViewController.m */; };
+		41F4851818B60C4F0006CCD6 /* BLESRequestActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F4851018B60C4F0006CCD6 /* BLESRequestActionViewController.m */; };
+		41F4851A18B60C4F0006CCD6 /* ActionDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F4851418B60C4F0006CCD6 /* ActionDetailsViewController.m */; };
+		41F4851E18B60C6F0006CCD6 /* BLESTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F4851D18B60C6F0006CCD6 /* BLESTrackViewController.m */; };
+		41F4852218B60CF50006CCD6 /* BLESAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F4852118B60CF50006CCD6 /* BLESAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41B9A35E1858A663006D0214 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41B9A32D1858A663006D0214 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41B9A3341858A663006D0214;
+			remoteInfo = BeaconDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4112C1AC18BF493D00DDB6DF /* BLESSwarmLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESSwarmLoginViewController.h; path = ViewControllers/BLESSwarmLoginViewController.h; sourceTree = "<group>"; };
+		4112C1AD18BF493D00DDB6DF /* BLESSwarmLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESSwarmLoginViewController.m; path = ViewControllers/BLESSwarmLoginViewController.m; sourceTree = "<group>"; };
+		4112C1B018BF914900DDB6DF /* SWARMHmacHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWARMHmacHelper.h; path = SwarmSDK/Helpers/SWARMHmacHelper.h; sourceTree = SOURCE_ROOT; };
+		4112C1B118BF914900DDB6DF /* SWARMHmacHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMHmacHelper.m; path = SwarmSDK/Helpers/SWARMHmacHelper.m; sourceTree = SOURCE_ROOT; };
+		4112C1B318BF973F00DDB6DF /* BLESCampaignRequestRestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESCampaignRequestRestHelper.h; path = Helpers/BLESCampaignRequestRestHelper.h; sourceTree = "<group>"; };
+		4112C1B418BF973F00DDB6DF /* BLESCampaignRequestRestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESCampaignRequestRestHelper.m; path = Helpers/BLESCampaignRequestRestHelper.m; sourceTree = "<group>"; };
+		4117FB9F18C747B6000CE85D /* BLESWhatIsHereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESWhatIsHereViewController.h; path = ViewControllers/Integration/BLESWhatIsHereViewController.h; sourceTree = "<group>"; };
+		4117FBA018C747B6000CE85D /* BLESWhatIsHereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESWhatIsHereViewController.m; path = ViewControllers/Integration/BLESWhatIsHereViewController.m; sourceTree = "<group>"; };
+		4140D3D618AF78C400311E24 /* SWARMBeaconSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWARMBeaconSimulation.h; path = BeaconSimulator/SWARMBeaconSimulation/SWARMBeaconSimulation/SWARMBeaconSimulation.h; sourceTree = SOURCE_ROOT; };
+		4140D3D718AF78C400311E24 /* SWARMBeaconSimulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMBeaconSimulation.m; path = BeaconSimulator/SWARMBeaconSimulation/SWARMBeaconSimulation/SWARMBeaconSimulation.m; sourceTree = SOURCE_ROOT; };
+		415410EF18B4C25F00C34F48 /* SWARMUserProfileTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMUserProfileTest.m; path = SwarmSDK/SwarmSDKTests/SWARMUserProfileTest.m; sourceTree = SOURCE_ROOT; };
+		416CDF25187C336800559550 /* BLESSourceSegmentVectorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLESSourceSegmentVectorTest.m; sourceTree = "<group>"; };
+		416CDF27187C40B300559550 /* BLESCustomerLocationEventTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLESCustomerLocationEventTest.m; sourceTree = "<group>"; };
+		417FC2EC18C8C42D00CFE04F /* BLESUseActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESUseActionViewController.h; path = ViewControllers/Coupons/BLESUseActionViewController.h; sourceTree = "<group>"; };
+		417FC2ED18C8C42D00CFE04F /* BLESUseActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESUseActionViewController.m; path = ViewControllers/Coupons/BLESUseActionViewController.m; sourceTree = "<group>"; };
+		41B7F67B18E97EB700458A6B /* SWARMReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMReachability.m; path = SwarmSDK/Reachability/SWARMReachability.m; sourceTree = SOURCE_ROOT; };
+		41B7F67D18E97EC300458A6B /* SWARMReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMReachability.h; path = SwarmSDK/Reachability/Include/SWARMReachability.h; sourceTree = SOURCE_ROOT; };
+		41B9A3351858A663006D0214 /* BeaconDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B9A3381858A663006D0214 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41B9A33A1858A663006D0214 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41B9A33C1858A663006D0214 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41B9A3401858A663006D0214 /* BeaconDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconDemo-Info.plist"; sourceTree = "<group>"; };
+		41B9A3421858A663006D0214 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41B9A3441858A663006D0214 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41B9A3461858A663006D0214 /* BeaconDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeaconDemo-Prefix.pch"; sourceTree = "<group>"; };
+		41B9A34B1858A663006D0214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		41B9A34E1858A663006D0214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		41B9A3531858A663006D0214 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41B9A3591858A663006D0214 /* BeaconDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B9A35A1858A663006D0214 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		41B9A3621858A663006D0214 /* BeaconDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconDemoTests-Info.plist"; sourceTree = "<group>"; };
+		41B9A3641858A663006D0214 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41B9A3661858A663006D0214 /* BeaconDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconDemoTests.m; sourceTree = "<group>"; };
+		41C10CDD18B6174100EE2AAE /* SWARMIabCategorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMIabCategorization.h; path = SwarmSDK/StoreCategorization/Include/SWARMIabCategorization.h; sourceTree = SOURCE_ROOT; };
+		41C10CDE18B6174100EE2AAE /* SWARMNaicsCategorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMNaicsCategorization.h; path = SwarmSDK/StoreCategorization/Include/SWARMNaicsCategorization.h; sourceTree = SOURCE_ROOT; };
+		41C10CDF18B6174100EE2AAE /* SWARMSicCodeCategorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMSicCodeCategorization.h; path = SwarmSDK/StoreCategorization/Include/SWARMSicCodeCategorization.h; sourceTree = SOURCE_ROOT; };
+		41C10CE018B6174100EE2AAE /* SWARMStoreCategorization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMStoreCategorization.h; path = SwarmSDK/StoreCategorization/Include/SWARMStoreCategorization.h; sourceTree = SOURCE_ROOT; };
+		41C10CE118B6174100EE2AAE /* SWARMStoreCategoryBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMStoreCategoryBase.h; path = SwarmSDK/StoreCategorization/Include/SWARMStoreCategoryBase.h; sourceTree = SOURCE_ROOT; };
+		41C10D3518B636F200EE2AAE /* BLESBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESBeacon.m; path = SwarmSDK/Entities/BLESBeacon.m; sourceTree = SOURCE_ROOT; };
+		41C10D3618B636F200EE2AAE /* BLESBeaconContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESBeaconContainer.m; path = SwarmSDK/Entities/BLESBeaconContainer.m; sourceTree = SOURCE_ROOT; };
+		41C10D3718B636F200EE2AAE /* BLESCampaign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESCampaign.m; path = SwarmSDK/Entities/BLESCampaign.m; sourceTree = SOURCE_ROOT; };
+		41C10D3818B636F200EE2AAE /* SWARMAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMAction.m; path = SwarmSDK/Entities/SWARMAction.m; sourceTree = SOURCE_ROOT; };
+		41C10D3918B636F200EE2AAE /* SWARMActionReaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWARMActionReaction.h; path = SwarmSDK/Entities/SWARMActionReaction.h; sourceTree = SOURCE_ROOT; };
+		41C10D3A18B636F200EE2AAE /* SWARMActionReaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMActionReaction.m; path = SwarmSDK/Entities/SWARMActionReaction.m; sourceTree = SOURCE_ROOT; };
+		41C10D3B18B636F200EE2AAE /* BLESCustomerLocationEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESCustomerLocationEvent.m; path = SwarmSDK/Entities/BLESCustomerLocationEvent.m; sourceTree = SOURCE_ROOT; };
+		41C10D3C18B636F200EE2AAE /* BLESMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESMock.m; path = SwarmSDK/Entities/BLESMock.m; sourceTree = SOURCE_ROOT; };
+		41C10D3D18B636F200EE2AAE /* BLESUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESUserProfile.m; path = SwarmSDK/Entities/BLESUserProfile.m; sourceTree = SOURCE_ROOT; };
+		41C10D3E18B636F200EE2AAE /* SWARMBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMBeacon.m; path = SwarmSDK/Entities/SWARMBeacon.m; sourceTree = SOURCE_ROOT; };
+		41C10D3F18B636F200EE2AAE /* SWARMSourceSegmentVector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMSourceSegmentVector.m; path = SwarmSDK/Entities/SWARMSourceSegmentVector.m; sourceTree = SOURCE_ROOT; };
+		41C10D4A18B6370100EE2AAE /* SWARMLocationInformaion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMLocationInformaion.m; path = SwarmSDK/Swarm/SWARMLocationInformaion.m; sourceTree = SOURCE_ROOT; };
+		41C10D4B18B6370100EE2AAE /* SWARMUserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMUserProfile.m; path = SwarmSDK/Swarm/SWARMUserProfile.m; sourceTree = SOURCE_ROOT; };
+		41C10D4C18B6370100EE2AAE /* SWARMWhatIsHereInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMWhatIsHereInformation.m; path = SwarmSDK/Swarm/SWARMWhatIsHereInformation.m; sourceTree = SOURCE_ROOT; };
+		41C10D5018B6370F00EE2AAE /* SWARMActionReactionRequestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWARMActionReactionRequestHelper.h; path = SwarmSDK/Helpers/SWARMActionReactionRequestHelper.h; sourceTree = SOURCE_ROOT; };
+		41C10D5118B6370F00EE2AAE /* SWARMActionReactionRequestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMActionReactionRequestHelper.m; path = SwarmSDK/Helpers/SWARMActionReactionRequestHelper.m; sourceTree = SOURCE_ROOT; };
+		41C10D5218B6370F00EE2AAE /* SWARMActionForMeRequestRestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWARMActionForMeRequestRestHelper.h; path = SwarmSDK/Helpers/SWARMActionForMeRequestRestHelper.h; sourceTree = SOURCE_ROOT; };
+		41C10D5318B6370F00EE2AAE /* SWARMActionForMeRequestRestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMActionForMeRequestRestHelper.m; path = SwarmSDK/Helpers/SWARMActionForMeRequestRestHelper.m; sourceTree = SOURCE_ROOT; };
+		41C10D5418B6370F00EE2AAE /* BLESRequestCouponForCampaignRestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESRequestCouponForCampaignRestHelper.h; path = SwarmSDK/Helpers/BLESRequestCouponForCampaignRestHelper.h; sourceTree = SOURCE_ROOT; };
+		41C10D5518B6370F00EE2AAE /* BLESRequestCouponForCampaignRestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESRequestCouponForCampaignRestHelper.m; path = SwarmSDK/Helpers/BLESRequestCouponForCampaignRestHelper.m; sourceTree = SOURCE_ROOT; };
+		41C10D5618B6370F00EE2AAE /* BLESRestApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESRestApi.h; path = SwarmSDK/Helpers/BLESRestApi.h; sourceTree = SOURCE_ROOT; };
+		41C10D5718B6370F00EE2AAE /* BLESRestApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESRestApi.m; path = SwarmSDK/Helpers/BLESRestApi.m; sourceTree = SOURCE_ROOT; };
+		41C10D5818B6370F00EE2AAE /* BLESUrlDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESUrlDefinitions.h; path = SwarmSDK/Helpers/BLESUrlDefinitions.h; sourceTree = SOURCE_ROOT; };
+		41C10D5918B6370F00EE2AAE /* BLESWhatIsHereRestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESWhatIsHereRestHelper.h; path = SwarmSDK/Helpers/BLESWhatIsHereRestHelper.h; sourceTree = SOURCE_ROOT; };
+		41C10D5A18B6370F00EE2AAE /* BLESWhatIsHereRestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESWhatIsHereRestHelper.m; path = SwarmSDK/Helpers/BLESWhatIsHereRestHelper.m; sourceTree = SOURCE_ROOT; };
+		41C10D5B18B6370F00EE2AAE /* BLESWhereAmIRestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESWhereAmIRestHelper.h; path = SwarmSDK/Helpers/BLESWhereAmIRestHelper.h; sourceTree = SOURCE_ROOT; };
+		41C10D5C18B6370F00EE2AAE /* BLESWhereAmIRestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESWhereAmIRestHelper.m; path = SwarmSDK/Helpers/BLESWhereAmIRestHelper.m; sourceTree = SOURCE_ROOT; };
+		41C10D5D18B6370F00EE2AAE /* CommonHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonHMAC.h; path = SwarmSDK/Helpers/CommonHMAC.h; sourceTree = SOURCE_ROOT; };
+		41C10D5E18B6370F00EE2AAE /* SWARMHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWARMHelpers.h; path = SwarmSDK/Helpers/SWARMHelpers.h; sourceTree = SOURCE_ROOT; };
+		41C10D5F18B6370F00EE2AAE /* SWARMHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMHelpers.m; path = SwarmSDK/Helpers/SWARMHelpers.m; sourceTree = SOURCE_ROOT; };
+		41C10D6718B6371B00EE2AAE /* BLESReachabilityChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESReachabilityChecker.m; path = SwarmSDK/Reachability/BLESReachabilityChecker.m; sourceTree = SOURCE_ROOT; };
+		41C10D6B18B6372900EE2AAE /* SWARMIabCategorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMIabCategorization.m; path = SwarmSDK/StoreCategorization/SWARMIabCategorization.m; sourceTree = SOURCE_ROOT; };
+		41C10D6C18B6372900EE2AAE /* SWARMNaicsCategorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMNaicsCategorization.m; path = SwarmSDK/StoreCategorization/SWARMNaicsCategorization.m; sourceTree = SOURCE_ROOT; };
+		41C10D6D18B6372900EE2AAE /* SWARMSicCodeCategorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMSicCodeCategorization.m; path = SwarmSDK/StoreCategorization/SWARMSicCodeCategorization.m; sourceTree = SOURCE_ROOT; };
+		41C10D6E18B6372900EE2AAE /* SWARMStoreCategorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMStoreCategorization.m; path = SwarmSDK/StoreCategorization/SWARMStoreCategorization.m; sourceTree = SOURCE_ROOT; };
+		41C10D6F18B6372900EE2AAE /* SWARMStoreCategoryBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMStoreCategoryBase.m; path = SwarmSDK/StoreCategorization/SWARMStoreCategoryBase.m; sourceTree = SOURCE_ROOT; };
+		41C10D7618B6375C00EE2AAE /* SwarmSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwarmSDK.m; path = SwarmSDK/SDK/SwarmSDK.m; sourceTree = SOURCE_ROOT; };
+		41CB4E21187EE45600DCC198 /* BLESMockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLESMockTest.m; sourceTree = "<group>"; };
+		41CB4E23187EE4DF00DCC198 /* BLESUserProfileTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLESUserProfileTest.m; sourceTree = "<group>"; };
+		41CD6B0D18BB91C2008E3437 /* BLESSwarmLoginRestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESSwarmLoginRestHelper.h; path = SwarmSDK/Helpers/BLESSwarmLoginRestHelper.h; sourceTree = SOURCE_ROOT; };
+		41CD6B0E18BB91C2008E3437 /* BLESSwarmLoginRestHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESSwarmLoginRestHelper.m; path = SwarmSDK/Helpers/BLESSwarmLoginRestHelper.m; sourceTree = SOURCE_ROOT; };
+		41CD6B1018BCD04D008E3437 /* SWARMBeaconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWARMBeaconCell.h; path = Helpers/SWARMBeaconCell.h; sourceTree = "<group>"; };
+		41CD6B1118BCD04D008E3437 /* SWARMBeaconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMBeaconCell.m; path = Helpers/SWARMBeaconCell.m; sourceTree = "<group>"; };
+		41CD6B1318BCD2A3008E3437 /* BLESBeaconsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESBeaconsListViewController.h; path = ViewControllers/BeaconTracking/BLESBeaconsListViewController.h; sourceTree = "<group>"; };
+		41CD6B1418BCD2A3008E3437 /* BLESBeaconsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESBeaconsListViewController.m; path = ViewControllers/BeaconTracking/BLESBeaconsListViewController.m; sourceTree = "<group>"; };
+		41CD6B1618BCE16A008E3437 /* BLESChangeUUIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESChangeUUIDViewController.h; path = ViewControllers/BeaconTracking/BLESChangeUUIDViewController.h; sourceTree = "<group>"; };
+		41CD6B1718BCE16A008E3437 /* BLESChangeUUIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESChangeUUIDViewController.m; path = ViewControllers/BeaconTracking/BLESChangeUUIDViewController.m; sourceTree = "<group>"; };
+		41D0C2DE1863330600BC3A0E /* SWARMActionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWARMActionTest.m; sourceTree = "<group>"; };
+		41F484F518B60B360006CCD6 /* BLESCampaignCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESCampaignCell.h; path = Helpers/BLESCampaignCell.h; sourceTree = "<group>"; };
+		41F484F618B60B360006CCD6 /* BLESCampaignCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESCampaignCell.m; path = Helpers/BLESCampaignCell.m; sourceTree = "<group>"; };
+		41F484F718B60B360006CCD6 /* SWARMActionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWARMActionCell.h; path = Helpers/SWARMActionCell.h; sourceTree = "<group>"; };
+		41F484F818B60B360006CCD6 /* SWARMActionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMActionCell.m; path = Helpers/SWARMActionCell.m; sourceTree = "<group>"; };
+		41F484F918B60B360006CCD6 /* BLESDemoRestApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESDemoRestApi.h; path = Helpers/BLESDemoRestApi.h; sourceTree = "<group>"; };
+		41F484FA18B60B360006CCD6 /* BLESDemoRestApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESDemoRestApi.m; path = Helpers/BLESDemoRestApi.m; sourceTree = "<group>"; };
+		41F484FB18B60B360006CCD6 /* BLESDemoSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESDemoSession.h; path = Helpers/BLESDemoSession.h; sourceTree = "<group>"; };
+		41F484FC18B60B360006CCD6 /* BLESDemoSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESDemoSession.m; path = Helpers/BLESDemoSession.m; sourceTree = "<group>"; };
+		41F4850118B60BDB0006CCD6 /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigViewController.h; path = ViewControllers/BeaconSimulation/ConfigViewController.h; sourceTree = "<group>"; };
+		41F4850218B60BDB0006CCD6 /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigViewController.m; path = ViewControllers/BeaconSimulation/ConfigViewController.m; sourceTree = "<group>"; };
+		41F4850418B60C010006CCD6 /* SwarmSDKIntegrationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwarmSDKIntegrationController.h; path = ViewControllers/Integration/SwarmSDKIntegrationController.h; sourceTree = "<group>"; };
+		41F4850518B60C010006CCD6 /* SwarmSDKIntegrationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwarmSDKIntegrationController.m; path = ViewControllers/Integration/SwarmSDKIntegrationController.m; sourceTree = "<group>"; };
+		41F4850918B60C4F0006CCD6 /* SWARMActionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWARMActionListViewController.h; path = ViewControllers/Coupons/SWARMActionListViewController.h; sourceTree = "<group>"; };
+		41F4850A18B60C4F0006CCD6 /* SWARMActionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMActionListViewController.m; path = ViewControllers/Coupons/SWARMActionListViewController.m; sourceTree = "<group>"; };
+		41F4850B18B60C4F0006CCD6 /* SWARMActionsNearTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWARMActionsNearTVC.h; path = ViewControllers/Coupons/SWARMActionsNearTVC.h; sourceTree = "<group>"; };
+		41F4850C18B60C4F0006CCD6 /* SWARMActionsNearTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWARMActionsNearTVC.m; path = ViewControllers/Coupons/SWARMActionsNearTVC.m; sourceTree = "<group>"; };
+		41F4850D18B60C4F0006CCD6 /* BLESQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESQRViewController.h; path = ViewControllers/Coupons/BLESQRViewController.h; sourceTree = "<group>"; };
+		41F4850E18B60C4F0006CCD6 /* BLESQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESQRViewController.m; path = ViewControllers/Coupons/BLESQRViewController.m; sourceTree = "<group>"; };
+		41F4850F18B60C4F0006CCD6 /* BLESRequestActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESRequestActionViewController.h; path = ViewControllers/Coupons/BLESRequestActionViewController.h; sourceTree = "<group>"; };
+		41F4851018B60C4F0006CCD6 /* BLESRequestActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESRequestActionViewController.m; path = ViewControllers/Coupons/BLESRequestActionViewController.m; sourceTree = "<group>"; };
+		41F4851318B60C4F0006CCD6 /* ActionDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionDetailsViewController.h; path = ViewControllers/Coupons/ActionDetailsViewController.h; sourceTree = "<group>"; };
+		41F4851418B60C4F0006CCD6 /* ActionDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionDetailsViewController.m; path = ViewControllers/Coupons/ActionDetailsViewController.m; sourceTree = "<group>"; };
+		41F4851C18B60C6F0006CCD6 /* BLESTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESTrackViewController.h; path = ViewControllers/BeaconTracking/BLESTrackViewController.h; sourceTree = "<group>"; };
+		41F4851D18B60C6F0006CCD6 /* BLESTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESTrackViewController.m; path = ViewControllers/BeaconTracking/BLESTrackViewController.m; sourceTree = "<group>"; };
+		41F4852018B60CF50006CCD6 /* BLESAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESAppDelegate.h; path = AppBase/BLESAppDelegate.h; sourceTree = "<group>"; };
+		41F4852118B60CF50006CCD6 /* BLESAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESAppDelegate.m; path = AppBase/BLESAppDelegate.m; sourceTree = "<group>"; };
+		41F4852418B60DF30006CCD6 /* BLESUserProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESUserProfile.h; path = SwarmSDK/Entities/Include/BLESUserProfile.h; sourceTree = SOURCE_ROOT; };
+		41F4852518B60E0B0006CCD6 /* SWARMAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMAction.h; path = SwarmSDK/Entities/Include/SWARMAction.h; sourceTree = SOURCE_ROOT; };
+		41F4852618B60E580006CCD6 /* SWARMLocationInformaion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMLocationInformaion.h; path = SwarmSDK/Swarm/Include/SWARMLocationInformaion.h; sourceTree = SOURCE_ROOT; };
+		41F4852718B60E6C0006CCD6 /* SWARMUserProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMUserProfile.h; path = SwarmSDK/Swarm/Include/SWARMUserProfile.h; sourceTree = SOURCE_ROOT; };
+		41F4852818B60E810006CCD6 /* BLESCampaign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESCampaign.h; path = SwarmSDK/Entities/Include/BLESCampaign.h; sourceTree = SOURCE_ROOT; };
+		41F4852918B60E8F0006CCD6 /* BLESCustomerLocationEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESCustomerLocationEvent.h; path = SwarmSDK/Entities/Include/BLESCustomerLocationEvent.h; sourceTree = SOURCE_ROOT; };
+		41F4852A18B60E9F0006CCD6 /* SWARMSourceSegmentVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMSourceSegmentVector.h; path = SwarmSDK/Entities/Include/SWARMSourceSegmentVector.h; sourceTree = SOURCE_ROOT; };
+		41F4852B18B60ED40006CCD6 /* BLESReachabilityChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESReachabilityChecker.h; path = SwarmSDK/Reachability/Include/BLESReachabilityChecker.h; sourceTree = SOURCE_ROOT; };
+		41F4852D18B60EF60006CCD6 /* SWARMWhatIsHereInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMWhatIsHereInformation.h; path = SwarmSDK/Swarm/Include/SWARMWhatIsHereInformation.h; sourceTree = SOURCE_ROOT; };
+		41F4852E18B60F0D0006CCD6 /* BLESBeaconContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESBeaconContainer.h; path = SwarmSDK/Entities/Include/BLESBeaconContainer.h; sourceTree = SOURCE_ROOT; };
+		41F4853018B60F690006CCD6 /* BLESMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESMock.h; path = SwarmSDK/Entities/Include/BLESMock.h; sourceTree = SOURCE_ROOT; };
+		41F4853418B60FE50006CCD6 /* SwarmSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwarmSDK.h; path = SwarmSDK/SDK/Include/SwarmSDK.h; sourceTree = SOURCE_ROOT; };
+		41F4853618B610420006CCD6 /* SwarmSDKConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwarmSDKConfiguration.h; path = SwarmSDK/SDK/Include/SwarmSDKConfiguration.h; sourceTree = SOURCE_ROOT; };
+		41F4853718B610650006CCD6 /* SWARMBeacon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SWARMBeacon.h; path = SwarmSDK/Entities/Include/SWARMBeacon.h; sourceTree = SOURCE_ROOT; };
+		41F4853818B610760006CCD6 /* BLESBeacon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BLESBeacon.h; path = SwarmSDK/Entities/Include/BLESBeacon.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41B9A3321858A663006D0214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B9A33B1858A663006D0214 /* CoreGraphics.framework in Frameworks */,
+				41B9A33D1858A663006D0214 /* UIKit.framework in Frameworks */,
+				41B9A3391858A663006D0214 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B9A3561858A663006D0214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B9A35B1858A663006D0214 /* XCTest.framework in Frameworks */,
+				41B9A35D1858A663006D0214 /* UIKit.framework in Frameworks */,
+				41B9A35C1858A663006D0214 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4112C1AF18BF4CB600DDB6DF /* SwarmLogin */ = {
+			isa = PBXGroup;
+			children = (
+				4112C1AC18BF493D00DDB6DF /* BLESSwarmLoginViewController.h */,
+				4112C1AD18BF493D00DDB6DF /* BLESSwarmLoginViewController.m */,
+			);
+			name = SwarmLogin;
+			sourceTree = "<group>";
+		};
+		412A9B6F18ABB1B9007A44A1 /* RemoveWhenUsingStaticLib */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D7518B6374100EE2AAE /* SDK */,
+				4140D3D518AF78AD00311E24 /* Simulation */,
+				412A9BA718ABB248007A44A1 /* Entities */,
+				412A9BC618ABB263007A44A1 /* Swarm */,
+				412A9B9F18ABB221007A44A1 /* Helpers */,
+				412A9BA018ABB235007A44A1 /* Reachability */,
+				412A9B8F18ABB20B007A44A1 /* StoreCategorization */,
+			);
+			name = RemoveWhenUsingStaticLib;
+			sourceTree = "<group>";
+		};
+		412A9B8F18ABB20B007A44A1 /* StoreCategorization */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D6B18B6372900EE2AAE /* SWARMIabCategorization.m */,
+				41C10D6C18B6372900EE2AAE /* SWARMNaicsCategorization.m */,
+				41C10D6D18B6372900EE2AAE /* SWARMSicCodeCategorization.m */,
+				41C10D6E18B6372900EE2AAE /* SWARMStoreCategorization.m */,
+				41C10D6F18B6372900EE2AAE /* SWARMStoreCategoryBase.m */,
+			);
+			name = StoreCategorization;
+			sourceTree = "<group>";
+		};
+		412A9B9F18ABB221007A44A1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D5018B6370F00EE2AAE /* SWARMActionReactionRequestHelper.h */,
+				41C10D5118B6370F00EE2AAE /* SWARMActionReactionRequestHelper.m */,
+				41C10D5218B6370F00EE2AAE /* SWARMActionForMeRequestRestHelper.h */,
+				41C10D5318B6370F00EE2AAE /* SWARMActionForMeRequestRestHelper.m */,
+				41C10D5418B6370F00EE2AAE /* BLESRequestCouponForCampaignRestHelper.h */,
+				41C10D5518B6370F00EE2AAE /* BLESRequestCouponForCampaignRestHelper.m */,
+				41C10D5618B6370F00EE2AAE /* BLESRestApi.h */,
+				41C10D5718B6370F00EE2AAE /* BLESRestApi.m */,
+				41C10D5818B6370F00EE2AAE /* BLESUrlDefinitions.h */,
+				41C10D5918B6370F00EE2AAE /* BLESWhatIsHereRestHelper.h */,
+				41C10D5A18B6370F00EE2AAE /* BLESWhatIsHereRestHelper.m */,
+				41C10D5B18B6370F00EE2AAE /* BLESWhereAmIRestHelper.h */,
+				41C10D5C18B6370F00EE2AAE /* BLESWhereAmIRestHelper.m */,
+				41CD6B0D18BB91C2008E3437 /* BLESSwarmLoginRestHelper.h */,
+				41CD6B0E18BB91C2008E3437 /* BLESSwarmLoginRestHelper.m */,
+				41C10D5D18B6370F00EE2AAE /* CommonHMAC.h */,
+				41C10D5E18B6370F00EE2AAE /* SWARMHelpers.h */,
+				41C10D5F18B6370F00EE2AAE /* SWARMHelpers.m */,
+				4112C1B018BF914900DDB6DF /* SWARMHmacHelper.h */,
+				4112C1B118BF914900DDB6DF /* SWARMHmacHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		412A9BA018ABB235007A44A1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D6718B6371B00EE2AAE /* BLESReachabilityChecker.m */,
+				41B7F67B18E97EB700458A6B /* SWARMReachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		412A9BA718ABB248007A44A1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D3518B636F200EE2AAE /* BLESBeacon.m */,
+				41C10D3718B636F200EE2AAE /* BLESCampaign.m */,
+				41C10D3618B636F200EE2AAE /* BLESBeaconContainer.m */,
+				41C10D3818B636F200EE2AAE /* SWARMAction.m */,
+				41C10D3918B636F200EE2AAE /* SWARMActionReaction.h */,
+				41C10D3A18B636F200EE2AAE /* SWARMActionReaction.m */,
+				41C10D3B18B636F200EE2AAE /* BLESCustomerLocationEvent.m */,
+				41C10D3C18B636F200EE2AAE /* BLESMock.m */,
+				41C10D3D18B636F200EE2AAE /* BLESUserProfile.m */,
+				41C10D3E18B636F200EE2AAE /* SWARMBeacon.m */,
+				41C10D3F18B636F200EE2AAE /* SWARMSourceSegmentVector.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		412A9BC618ABB263007A44A1 /* Swarm */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D4A18B6370100EE2AAE /* SWARMLocationInformaion.m */,
+				41C10D4B18B6370100EE2AAE /* SWARMUserProfile.m */,
+				41C10D4C18B6370100EE2AAE /* SWARMWhatIsHereInformation.m */,
+			);
+			name = Swarm;
+			sourceTree = "<group>";
+		};
+		4140D3D518AF78AD00311E24 /* Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				4140D3D618AF78C400311E24 /* SWARMBeaconSimulation.h */,
+				4140D3D718AF78C400311E24 /* SWARMBeaconSimulation.m */,
+			);
+			name = Simulation;
+			sourceTree = "<group>";
+		};
+		414A8B48189BB7E10017DEE2 /* SwarmSDKHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				41C10CDC18B6173200EE2AAE /* StoreCategorization */,
+				41F4853518B60FF20006CCD6 /* SWARM */,
+				41F4853318B60FDD0006CCD6 /* SDK */,
+				41F4853218B60F910006CCD6 /* Reachability */,
+				41F4853118B60F860006CCD6 /* Helpers */,
+				41F4852F18B60F510006CCD6 /* Entities */,
+			);
+			name = SwarmSDKHeaders;
+			sourceTree = "<group>";
+		};
+		41B9A32C1858A663006D0214 = {
+			isa = PBXGroup;
+			children = (
+				41B9A33E1858A663006D0214 /* BeaconDemo */,
+				41B9A3601858A663006D0214 /* BeaconDemoTests */,
+				41B9A3371858A663006D0214 /* Frameworks */,
+				41B9A3361858A663006D0214 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41B9A3361858A663006D0214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41B9A3351858A663006D0214 /* BeaconDemo.app */,
+				41B9A3591858A663006D0214 /* BeaconDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41B9A3371858A663006D0214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41B9A3381858A663006D0214 /* Foundation.framework */,
+				41B9A33A1858A663006D0214 /* CoreGraphics.framework */,
+				41B9A33C1858A663006D0214 /* UIKit.framework */,
+				41B9A35A1858A663006D0214 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41B9A33E1858A663006D0214 /* BeaconDemo */ = {
+			isa = PBXGroup;
+			children = (
+				412A9B6F18ABB1B9007A44A1 /* RemoveWhenUsingStaticLib */,
+				414A8B48189BB7E10017DEE2 /* SwarmSDKHeaders */,
+				41F4851F18B60CCD0006CCD6 /* AppBase */,
+				41D0C2E418634CA800BC3A0E /* Helpers */,
+				41D0C2E318634C7200BC3A0E /* ViewControllers */,
+				41B9A34A1858A663006D0214 /* Main_iPhone.storyboard */,
+				41B9A34D1858A663006D0214 /* Main_iPad.storyboard */,
+				41B9A3531858A663006D0214 /* Images.xcassets */,
+				41B9A33F1858A663006D0214 /* Supporting Files */,
+			);
+			path = BeaconDemo;
+			sourceTree = "<group>";
+		};
+		41B9A33F1858A663006D0214 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41B9A3401858A663006D0214 /* BeaconDemo-Info.plist */,
+				41B9A3411858A663006D0214 /* InfoPlist.strings */,
+				41B9A3441858A663006D0214 /* main.m */,
+				41B9A3461858A663006D0214 /* BeaconDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41B9A3601858A663006D0214 /* BeaconDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				41B9A3611858A663006D0214 /* Supporting Files */,
+				41B9A3661858A663006D0214 /* BeaconDemoTests.m */,
+				415410EF18B4C25F00C34F48 /* SWARMUserProfileTest.m */,
+				41CB4E23187EE4DF00DCC198 /* BLESUserProfileTest.m */,
+				41D0C2DE1863330600BC3A0E /* SWARMActionTest.m */,
+				416CDF25187C336800559550 /* BLESSourceSegmentVectorTest.m */,
+				416CDF27187C40B300559550 /* BLESCustomerLocationEventTest.m */,
+				41CB4E21187EE45600DCC198 /* BLESMockTest.m */,
+			);
+			path = BeaconDemoTests;
+			sourceTree = "<group>";
+		};
+		41B9A3611858A663006D0214 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41B9A3621858A663006D0214 /* BeaconDemoTests-Info.plist */,
+				41B9A3631858A663006D0214 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41C10CDC18B6173200EE2AAE /* StoreCategorization */ = {
+			isa = PBXGroup;
+			children = (
+				41C10CDD18B6174100EE2AAE /* SWARMIabCategorization.h */,
+				41C10CDE18B6174100EE2AAE /* SWARMNaicsCategorization.h */,
+				41C10CDF18B6174100EE2AAE /* SWARMSicCodeCategorization.h */,
+				41C10CE018B6174100EE2AAE /* SWARMStoreCategorization.h */,
+				41C10CE118B6174100EE2AAE /* SWARMStoreCategoryBase.h */,
+			);
+			name = StoreCategorization;
+			sourceTree = "<group>";
+		};
+		41C10D7518B6374100EE2AAE /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				41C10D7618B6375C00EE2AAE /* SwarmSDK.m */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		41D0C2E318634C7200BC3A0E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4112C1AF18BF4CB600DDB6DF /* SwarmLogin */,
+				41F4851B18B60C570006CCD6 /* BeaconTracking */,
+				41F4850818B60C420006CCD6 /* Coupons */,
+				41F4850718B60C0B0006CCD6 /* Integration */,
+				41D0C2E8186354BA00BC3A0E /* BeaconSimulation */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		41D0C2E418634CA800BC3A0E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				41CD6B1018BCD04D008E3437 /* SWARMBeaconCell.h */,
+				41CD6B1118BCD04D008E3437 /* SWARMBeaconCell.m */,
+				41F484F518B60B360006CCD6 /* BLESCampaignCell.h */,
+				41F484F618B60B360006CCD6 /* BLESCampaignCell.m */,
+				41F484F718B60B360006CCD6 /* SWARMActionCell.h */,
+				41F484F818B60B360006CCD6 /* SWARMActionCell.m */,
+				41F484F918B60B360006CCD6 /* BLESDemoRestApi.h */,
+				41F484FA18B60B360006CCD6 /* BLESDemoRestApi.m */,
+				4112C1B318BF973F00DDB6DF /* BLESCampaignRequestRestHelper.h */,
+				4112C1B418BF973F00DDB6DF /* BLESCampaignRequestRestHelper.m */,
+				41F484FB18B60B360006CCD6 /* BLESDemoSession.h */,
+				41F484FC18B60B360006CCD6 /* BLESDemoSession.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		41D0C2E8186354BA00BC3A0E /* BeaconSimulation */ = {
+			isa = PBXGroup;
+			children = (
+				41F4850118B60BDB0006CCD6 /* ConfigViewController.h */,
+				41F4850218B60BDB0006CCD6 /* ConfigViewController.m */,
+			);
+			name = BeaconSimulation;
+			sourceTree = "<group>";
+		};
+		41F4850718B60C0B0006CCD6 /* Integration */ = {
+			isa = PBXGroup;
+			children = (
+				41F4850418B60C010006CCD6 /* SwarmSDKIntegrationController.h */,
+				41F4850518B60C010006CCD6 /* SwarmSDKIntegrationController.m */,
+				4117FB9F18C747B6000CE85D /* BLESWhatIsHereViewController.h */,
+				4117FBA018C747B6000CE85D /* BLESWhatIsHereViewController.m */,
+			);
+			name = Integration;
+			sourceTree = "<group>";
+		};
+		41F4850818B60C420006CCD6 /* Coupons */ = {
+			isa = PBXGroup;
+			children = (
+				41F4850918B60C4F0006CCD6 /* SWARMActionListViewController.h */,
+				41F4850A18B60C4F0006CCD6 /* SWARMActionListViewController.m */,
+				41F4850B18B60C4F0006CCD6 /* SWARMActionsNearTVC.h */,
+				41F4850C18B60C4F0006CCD6 /* SWARMActionsNearTVC.m */,
+				41F4850D18B60C4F0006CCD6 /* BLESQRViewController.h */,
+				41F4850E18B60C4F0006CCD6 /* BLESQRViewController.m */,
+				41F4850F18B60C4F0006CCD6 /* BLESRequestActionViewController.h */,
+				41F4851018B60C4F0006CCD6 /* BLESRequestActionViewController.m */,
+				41F4851318B60C4F0006CCD6 /* ActionDetailsViewController.h */,
+				41F4851418B60C4F0006CCD6 /* ActionDetailsViewController.m */,
+				417FC2EC18C8C42D00CFE04F /* BLESUseActionViewController.h */,
+				417FC2ED18C8C42D00CFE04F /* BLESUseActionViewController.m */,
+			);
+			name = Coupons;
+			sourceTree = "<group>";
+		};
+		41F4851B18B60C570006CCD6 /* BeaconTracking */ = {
+			isa = PBXGroup;
+			children = (
+				41CD6B1618BCE16A008E3437 /* BLESChangeUUIDViewController.h */,
+				41CD6B1718BCE16A008E3437 /* BLESChangeUUIDViewController.m */,
+				41F4851C18B60C6F0006CCD6 /* BLESTrackViewController.h */,
+				41F4851D18B60C6F0006CCD6 /* BLESTrackViewController.m */,
+				41CD6B1318BCD2A3008E3437 /* BLESBeaconsListViewController.h */,
+				41CD6B1418BCD2A3008E3437 /* BLESBeaconsListViewController.m */,
+			);
+			name = BeaconTracking;
+			sourceTree = "<group>";
+		};
+		41F4851F18B60CCD0006CCD6 /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				41F4852018B60CF50006CCD6 /* BLESAppDelegate.h */,
+				41F4852118B60CF50006CCD6 /* BLESAppDelegate.m */,
+			);
+			name = AppBase;
+			sourceTree = "<group>";
+		};
+		41F4852F18B60F510006CCD6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				41F4853818B610760006CCD6 /* BLESBeacon.h */,
+				41F4853718B610650006CCD6 /* SWARMBeacon.h */,
+				41F4852418B60DF30006CCD6 /* BLESUserProfile.h */,
+				41F4852E18B60F0D0006CCD6 /* BLESBeaconContainer.h */,
+				41F4852918B60E8F0006CCD6 /* BLESCustomerLocationEvent.h */,
+				41F4853018B60F690006CCD6 /* BLESMock.h */,
+				41F4852518B60E0B0006CCD6 /* SWARMAction.h */,
+				41F4852A18B60E9F0006CCD6 /* SWARMSourceSegmentVector.h */,
+				41F4852818B60E810006CCD6 /* BLESCampaign.h */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		41F4853118B60F860006CCD6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		41F4853218B60F910006CCD6 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				41F4852B18B60ED40006CCD6 /* BLESReachabilityChecker.h */,
+				41B7F67D18E97EC300458A6B /* SWARMReachability.h */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		41F4853318B60FDD0006CCD6 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				41F4853418B60FE50006CCD6 /* SwarmSDK.h */,
+				41F4853618B610420006CCD6 /* SwarmSDKConfiguration.h */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		41F4853518B60FF20006CCD6 /* SWARM */ = {
+			isa = PBXGroup;
+			children = (
+				41F4852618B60E580006CCD6 /* SWARMLocationInformaion.h */,
+				41F4852D18B60EF60006CCD6 /* SWARMWhatIsHereInformation.h */,
+				41F4852718B60E6C0006CCD6 /* SWARMUserProfile.h */,
+			);
+			name = SWARM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41B9A3341858A663006D0214 /* BeaconDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B9A36A1858A663006D0214 /* Build configuration list for PBXNativeTarget "BeaconDemo" */;
+			buildPhases = (
+				41B9A3311858A663006D0214 /* Sources */,
+				41B9A3321858A663006D0214 /* Frameworks */,
+				41B9A3331858A663006D0214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaconDemo;
+			productName = BeaconDemo;
+			productReference = 41B9A3351858A663006D0214 /* BeaconDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41B9A3581858A663006D0214 /* BeaconDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B9A36D1858A663006D0214 /* Build configuration list for PBXNativeTarget "BeaconDemoTests" */;
+			buildPhases = (
+				41B9A3551858A663006D0214 /* Sources */,
+				41B9A3561858A663006D0214 /* Frameworks */,
+				41B9A3571858A663006D0214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41B9A35F1858A663006D0214 /* PBXTargetDependency */,
+			);
+			name = BeaconDemoTests;
+			productName = BeaconDemoTests;
+			productReference = 41B9A3591858A663006D0214 /* BeaconDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41B9A32D1858A663006D0214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BLES;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Sonrisa;
+				TargetAttributes = {
+					41B9A3581858A663006D0214 = {
+						TestTargetID = 41B9A3341858A663006D0214;
+					};
+				};
+			};
+			buildConfigurationList = 41B9A3301858A663006D0214 /* Build configuration list for PBXProject "BeaconDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41B9A32C1858A663006D0214;
+			productRefGroup = 41B9A3361858A663006D0214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41B9A3341858A663006D0214 /* BeaconDemo */,
+				41B9A3581858A663006D0214 /* BeaconDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41B9A3331858A663006D0214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B9A34F1858A663006D0214 /* Main_iPad.storyboard in Resources */,
+				41B9A3541858A663006D0214 /* Images.xcassets in Resources */,
+				41B9A34C1858A663006D0214 /* Main_iPhone.storyboard in Resources */,
+				41B9A3431858A663006D0214 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B9A3571858A663006D0214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B9A3651858A663006D0214 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41B9A3311858A663006D0214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C10D4D18B6370100EE2AAE /* SWARMLocationInformaion.m in Sources */,
+				41F4851718B60C4F0006CCD6 /* BLESQRViewController.m in Sources */,
+				41CD6B1218BCD04D008E3437 /* SWARMBeaconCell.m in Sources */,
+				4112C1AE18BF493D00DDB6DF /* BLESSwarmLoginViewController.m in Sources */,
+				41C10D6018B6370F00EE2AAE /* SWARMActionReactionRequestHelper.m in Sources */,
+				41C10D4218B636F200EE2AAE /* BLESCampaign.m in Sources */,
+				41C10D6118B6370F00EE2AAE /* SWARMActionForMeRequestRestHelper.m in Sources */,
+				41CD6B0F18BB91C2008E3437 /* BLESSwarmLoginRestHelper.m in Sources */,
+				41C10D4E18B6370100EE2AAE /* SWARMUserProfile.m in Sources */,
+				41F484FD18B60B360006CCD6 /* BLESCampaignCell.m in Sources */,
+				41C10D4618B636F200EE2AAE /* BLESMock.m in Sources */,
+				41F4850618B60C010006CCD6 /* SwarmSDKIntegrationController.m in Sources */,
+				41C10D7018B6372900EE2AAE /* SWARMIabCategorization.m in Sources */,
+				41C10D6418B6370F00EE2AAE /* BLESWhatIsHereRestHelper.m in Sources */,
+				417FC2EE18C8C42D00CFE04F /* BLESUseActionViewController.m in Sources */,
+				4117FBA118C747B6000CE85D /* BLESWhatIsHereViewController.m in Sources */,
+				41C10D6318B6370F00EE2AAE /* BLESRestApi.m in Sources */,
+				41F4851518B60C4F0006CCD6 /* SWARMActionListViewController.m in Sources */,
+				41C10D4918B636F200EE2AAE /* SWARMSourceSegmentVector.m in Sources */,
+				41C10D6218B6370F00EE2AAE /* BLESRequestCouponForCampaignRestHelper.m in Sources */,
+				41C10D7118B6372900EE2AAE /* SWARMNaicsCategorization.m in Sources */,
+				41C10D7718B6375C00EE2AAE /* SwarmSDK.m in Sources */,
+				4140D3D818AF78C400311E24 /* SWARMBeaconSimulation.m in Sources */,
+				41F4851E18B60C6F0006CCD6 /* BLESTrackViewController.m in Sources */,
+				41F484FE18B60B360006CCD6 /* SWARMActionCell.m in Sources */,
+				4112C1B518BF973F00DDB6DF /* BLESCampaignRequestRestHelper.m in Sources */,
+				41C10D6618B6370F00EE2AAE /* SWARMHelpers.m in Sources */,
+				41C10D4F18B6370100EE2AAE /* SWARMWhatIsHereInformation.m in Sources */,
+				41C10D4718B636F200EE2AAE /* BLESUserProfile.m in Sources */,
+				41F4852218B60CF50006CCD6 /* BLESAppDelegate.m in Sources */,
+				41CD6B1518BCD2A3008E3437 /* BLESBeaconsListViewController.m in Sources */,
+				41C10D7218B6372900EE2AAE /* SWARMSicCodeCategorization.m in Sources */,
+				41F484FF18B60B360006CCD6 /* BLESDemoRestApi.m in Sources */,
+				41C10D6518B6370F00EE2AAE /* BLESWhereAmIRestHelper.m in Sources */,
+				41F4850018B60B360006CCD6 /* BLESDemoSession.m in Sources */,
+				41C10D4118B636F200EE2AAE /* BLESBeaconContainer.m in Sources */,
+				41B9A3451858A663006D0214 /* main.m in Sources */,
+				41C10D7318B6372900EE2AAE /* SWARMStoreCategorization.m in Sources */,
+				41C10D6918B6371B00EE2AAE /* BLESReachabilityChecker.m in Sources */,
+				41F4850318B60BDB0006CCD6 /* ConfigViewController.m in Sources */,
+				41C10D4018B636F200EE2AAE /* BLESBeacon.m in Sources */,
+				41F4851618B60C4F0006CCD6 /* SWARMActionsNearTVC.m in Sources */,
+				41C10D4518B636F200EE2AAE /* BLESCustomerLocationEvent.m in Sources */,
+				41C10D4818B636F200EE2AAE /* SWARMBeacon.m in Sources */,
+				41C10D4318B636F200EE2AAE /* SWARMAction.m in Sources */,
+				41B7F67C18E97EB700458A6B /* SWARMReachability.m in Sources */,
+				41CD6B1818BCE16A008E3437 /* BLESChangeUUIDViewController.m in Sources */,
+				41F4851818B60C4F0006CCD6 /* BLESRequestActionViewController.m in Sources */,
+				41C10D4418B636F200EE2AAE /* SWARMActionReaction.m in Sources */,
+				41C10D7418B6372900EE2AAE /* SWARMStoreCategoryBase.m in Sources */,
+				41F4851A18B60C4F0006CCD6 /* ActionDetailsViewController.m in Sources */,
+				4112C1B218BF914900DDB6DF /* SWARMHmacHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B9A3551858A663006D0214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CB4E24187EE4DF00DCC198 /* BLESUserProfileTest.m in Sources */,
+				41CB4E22187EE45600DCC198 /* BLESMockTest.m in Sources */,
+				41B9A3671858A663006D0214 /* BeaconDemoTests.m in Sources */,
+				416CDF28187C40B300559550 /* BLESCustomerLocationEventTest.m in Sources */,
+				41D0C2DF1863330600BC3A0E /* SWARMActionTest.m in Sources */,
+				415410F018B4C25F00C34F48 /* SWARMUserProfileTest.m in Sources */,
+				416CDF26187C336800559550 /* BLESSourceSegmentVectorTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41B9A35F1858A663006D0214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41B9A3341858A663006D0214 /* BeaconDemo */;
+			targetProxy = 41B9A35E1858A663006D0214 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41B9A3411858A663006D0214 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41B9A3421858A663006D0214 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41B9A34A1858A663006D0214 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41B9A34B1858A663006D0214 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		41B9A34D1858A663006D0214 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41B9A34E1858A663006D0214 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		41B9A3631858A663006D0214 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41B9A3641858A663006D0214 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41B9A3681858A663006D0214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matt Thomas (4MDM58WMMZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "32D963CA-7B72-4FA4-89D8-79DE09E0040E";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41B9A3691858A663006D0214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matt Thomas (4MDM58WMMZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "32D963CA-7B72-4FA4-89D8-79DE09E0040E";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41B9A36B1858A663006D0214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconDemo/BeaconDemo-Prefix.pch";
+				INFOPLIST_FILE = "BeaconDemo/BeaconDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SwarmSDK-dymcepgkmwikakctmjtaylwrpjqm/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SwarmSDK-gbpuxkqrnaapohamghrkmdvdxuer/Build/Products/Debug-iphoneos",
+					/Users/Requin/BeaconDemo/BeaconDemo/BeaconDemo,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41B9A36C1858A663006D0214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconDemo/BeaconDemo-Prefix.pch";
+				INFOPLIST_FILE = "BeaconDemo/BeaconDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SwarmSDK-dymcepgkmwikakctmjtaylwrpjqm/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SwarmSDK-gbpuxkqrnaapohamghrkmdvdxuer/Build/Products/Debug-iphoneos",
+					/Users/Requin/BeaconDemo/BeaconDemo/BeaconDemo,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		41B9A36E1858A663006D0214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeaconDemo.app/BeaconDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconDemo/BeaconDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BeaconDemoTests/BeaconDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		41B9A36F1858A663006D0214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BeaconDemo.app/BeaconDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BeaconDemo/BeaconDemo-Prefix.pch";
+				INFOPLIST_FILE = "BeaconDemoTests/BeaconDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41B9A3301858A663006D0214 /* Build configuration list for PBXProject "BeaconDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B9A3681858A663006D0214 /* Debug */,
+				41B9A3691858A663006D0214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41B9A36A1858A663006D0214 /* Build configuration list for PBXNativeTarget "BeaconDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B9A36B1858A663006D0214 /* Debug */,
+				41B9A36C1858A663006D0214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41B9A36D1858A663006D0214 /* Build configuration list for PBXNativeTarget "BeaconDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B9A36E1858A663006D0214 /* Debug */,
+				41B9A36F1858A663006D0214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41B9A32D1858A663006D0214 /* Project object */;
+}

@@ -1,0 +1,1200 @@
+TSwarmSDK
+v6
+r1
+cCheck dependencies
+cProcessPCH /var/folders/x6/d_y9bn7n0pz05ny0nxskgxbw0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/SwarmSDK-Prefix-ffeliscueeifzheuktuymvvoinlv/SwarmSDK-Prefix.pch.pch SwarmSDK/SwarmSDK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/x6/d_y9bn7n0pz05ny0nxskgxbw0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/SwarmSDK-Prefix-hjcqwdajkfohiqddiisvslujyrdq/SwarmSDK-Prefix.pch.pch SwarmSDK/SwarmSDK-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/x6/d_y9bn7n0pz05ny0nxskgxbw0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/SwarmSDK-Prefix-cwyqxtlksscssdegyiybhxkvbgmq/SwarmSDK-Prefix.pch.pch SwarmSDK/SwarmSDK-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMLocationInformaion.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMLocationInformaion.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMUserProfile.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMUserProfile.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMWhatIsHereInformation.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMWhatIsHereInformation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMIabCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMIabCategorization.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMNaicsCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMNaicsCategorization.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMSicCodeCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMSicCodeCategorization.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMStoreCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategorization.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMStoreCategoryBase.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategoryBase.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SwarmSDK.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/SDK/SwarmSDK.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/Reachability.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/Reachability.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESReachabilityChecker.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/BLESReachabilityChecker.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCouponReactionRequestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponReactionRequestHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCouponWalletRequestRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponWalletRequestRestHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESRequestCouponForCampaignRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRequestCouponForCampaignRestHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESRestApi.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRestApi.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESWhatIsHereRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhatIsHereRestHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESWhereAmIRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhereAmIRestHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMHelpers.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/SWARMHelpers.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMBeacon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMBeacon.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMSourceSegmentVector.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMSourceSegmentVector.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESBeacon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeacon.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESBeaconContainer.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeaconContainer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCampaign.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCampaign.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCoupon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCoupon.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCouponReaction.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCouponReaction.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCustomerLocationEvent.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCustomerLocationEvent.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESMock.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESMock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESUserProfile.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESUserProfile.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMLocationInformaion.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMLocationInformaion.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMUserProfile.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMUserProfile.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMWhatIsHereInformation.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMWhatIsHereInformation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMIabCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMIabCategorization.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMNaicsCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMNaicsCategorization.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMSicCodeCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMSicCodeCategorization.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMStoreCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategorization.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMStoreCategoryBase.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategoryBase.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SwarmSDK.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/SDK/SwarmSDK.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/Reachability.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/Reachability.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESReachabilityChecker.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/BLESReachabilityChecker.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCouponReactionRequestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponReactionRequestHelper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCouponWalletRequestRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponWalletRequestRestHelper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESRequestCouponForCampaignRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRequestCouponForCampaignRestHelper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESRestApi.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRestApi.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESWhatIsHereRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhatIsHereRestHelper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESWhereAmIRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhereAmIRestHelper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMHelpers.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/SWARMHelpers.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMBeacon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMBeacon.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMSourceSegmentVector.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMSourceSegmentVector.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESBeacon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeacon.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESBeaconContainer.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeaconContainer.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCampaign.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCampaign.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCoupon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCoupon.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCouponReaction.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCouponReaction.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCustomerLocationEvent.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCustomerLocationEvent.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESMock.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESMock.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESUserProfile.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESUserProfile.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMLocationInformaion.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMLocationInformaion.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMUserProfile.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMUserProfile.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMWhatIsHereInformation.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMWhatIsHereInformation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMIabCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMIabCategorization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMNaicsCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMNaicsCategorization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMSicCodeCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMSicCodeCategorization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMStoreCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategorization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMStoreCategoryBase.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategoryBase.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SwarmSDK.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/SDK/SwarmSDK.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/Reachability.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/Reachability.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESReachabilityChecker.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/BLESReachabilityChecker.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCouponReactionRequestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponReactionRequestHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCouponWalletRequestRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponWalletRequestRestHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESRequestCouponForCampaignRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRequestCouponForCampaignRestHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESRestApi.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRestApi.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESWhatIsHereRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhatIsHereRestHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESWhereAmIRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhereAmIRestHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMHelpers.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/SWARMHelpers.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMBeacon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMBeacon.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMSourceSegmentVector.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMSourceSegmentVector.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESBeacon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeacon.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESBeaconContainer.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeaconContainer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCampaign.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCampaign.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCoupon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCoupon.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCouponReaction.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCouponReaction.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCustomerLocationEvent.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCustomerLocationEvent.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESMock.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESMock.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESUserProfile.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESUserProfile.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/libSwarmSDK.a normal armv7
+cLibtool /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/libSwarmSDK.a normal armv7s
+cLibtool /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/libSwarmSDK.a normal arm64
+cCreateUniversalBinary /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/libSwarmSDK.a normal armv7\ armv7s\ arm64
+cPBXCp SDK/Include/SwarmSDKConfiguration.h build/Debug-iphoneos/include/SwarmSDK/SwarmSDKConfiguration.h
+cPBXCp StoreCategorization/Include/SWARMNaicsCategorization.h build/Debug-iphoneos/include/SwarmSDK/SWARMNaicsCategorization.h
+cPBXCp StoreCategorization/Include/SWARMSicCodeCategorization.h build/Debug-iphoneos/include/SwarmSDK/SWARMSicCodeCategorization.h
+cPBXCp StoreCategorization/Include/SWARMIabCategorization.h build/Debug-iphoneos/include/SwarmSDK/SWARMIabCategorization.h
+cPBXCp StoreCategorization/Include/SWARMStoreCategorization.h build/Debug-iphoneos/include/SwarmSDK/SWARMStoreCategorization.h
+cPBXCp StoreCategorization/Include/SWARMStoreCategoryBase.h build/Debug-iphoneos/include/SwarmSDK/SWARMStoreCategoryBase.h
+cPBXCp Swarm/Include/SWARMLocationInformaion.h build/Debug-iphoneos/include/SwarmSDK/SWARMLocationInformaion.h
+cPBXCp Swarm/Include/SWARMUserProfile.h build/Debug-iphoneos/include/SwarmSDK/SWARMUserProfile.h
+cPBXCp Swarm/Include/SWARMWhatIsHereInformation.h build/Debug-iphoneos/include/SwarmSDK/SWARMWhatIsHereInformation.h
+cPBXCp Reachability/Include/BLESReachabilityChecker.h build/Debug-iphoneos/include/SwarmSDK/BLESReachabilityChecker.h
+cPBXCp Reachability/Include/Reachability.h build/Debug-iphoneos/include/SwarmSDK/Reachability.h
+cPBXCp Entities/Include/BLESBeacon.h build/Debug-iphoneos/include/SwarmSDK/BLESBeacon.h
+cPBXCp Entities/Include/BLESBeaconContainer.h build/Debug-iphoneos/include/SwarmSDK/BLESBeaconContainer.h
+cPBXCp Entities/Include/BLESCampaign.h build/Debug-iphoneos/include/SwarmSDK/BLESCampaign.h
+cPBXCp Entities/Include/BLESCoupon.h build/Debug-iphoneos/include/SwarmSDK/BLESCoupon.h
+cPBXCp Entities/Include/BLESCustomerLocationEvent.h build/Debug-iphoneos/include/SwarmSDK/BLESCustomerLocationEvent.h
+cPBXCp Entities/Include/BLESMock.h build/Debug-iphoneos/include/SwarmSDK/BLESMock.h
+cPBXCp Entities/Include/BLESUserProfile.h build/Debug-iphoneos/include/SwarmSDK/BLESUserProfile.h
+cPBXCp Entities/Include/SWARMBeacon.h build/Debug-iphoneos/include/SwarmSDK/SWARMBeacon.h
+cPBXCp Entities/Include/SWARMSourceSegmentVector.h build/Debug-iphoneos/include/SwarmSDK/SWARMSourceSegmentVector.h
+cPBXCp SDK/Include/SwarmSDK.h build/Debug-iphoneos/include/SwarmSDK/SwarmSDK.h
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000525642EE0000000000000110
+t1381384942
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c0000000052875ADB000000000000036B
+t1384602331
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052875ADB00000000000001A0
+t1384602331
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052875ADE0000000000A92BC0
+t1384602334
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000052875ADF00000000001A2270
+t1384602335
+s1712752
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c0000000052875B160000000000000AC9
+t1384602390
+s2761
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeacon.m
+c0000000052FB609A0000000000000F0F
+t1392205978
+s3855
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeaconContainer.m
+c0000000052FCDCB00000000000001E4C
+t1392303280
+s7756
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCampaign.m
+c0000000052CD487E0000000000000315
+t1389185150
+s789
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCoupon.m
+c00000000530759EC0000000000000F2E
+t1392990700
+s3886
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCouponReaction.m
+c0000000052CC1D5900000000000004F9
+t1389108569
+s1273
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCustomerLocationEvent.m
+c00000000530495720000000000000DB3
+t1392809330
+s3507
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESMock.m
+c00000000530495600000000000001B51
+t1392809312
+s6993
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESUserProfile.m
+c000000005304956000000000000008B3
+t1392809312
+s2227
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/Include/BLESBeacon.h
+c0000000052FE51AD0000000000000291
+t1392398765
+s657
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/Include/BLESBeaconContainer.h
+c0000000052FCB6C80000000000000440
+t1392293576
+s1088
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/Include/BLESCampaign.h
+c0000000052F22AB1000000000000026F
+t1391602353
+s623
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/Include/BLESCoupon.h
+c00000000530759EC0000000000000453
+t1392990700
+s1107
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/Include/BLESCustomerLocationEvent.h
+c00000000530494EA000000000000032E
+t1392809194
+s814
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/Include/BLESMock.h
+c00000000530494EA00000000000001D8
+t1392809194
+s472
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/Include/BLESUserProfile.h
+c0000000052FA27840000000000000232
+t1392125828
+s562
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/Include/SWARMBeacon.h
+c0000000052FCCF160000000000000269
+t1392299798
+s617
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/Include/SWARMSourceSegmentVector.h
+c00000000530495600000000000000249
+t1392809312
+s585
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMBeacon.m
+c0000000052FCDA4900000000000005E3
+t1392302665
+s1507
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMSourceSegmentVector.m
+c0000000053049D3500000000000009C8
+t1392811317
+s2504
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponReactionRequestHelper.m
+c0000000052F8AB3A000000000000054B
+t1392028474
+s1355
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponWalletRequestRestHelper.m
+c000000005304BFF50000000000000A7B
+t1392820213
+s2683
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRequestCouponForCampaignRestHelper.m
+c000000005304B9FD0000000000000C6C
+t1392818685
+s3180
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRestApi.m
+c00000000530759EC00000000000054C3
+t1392990700
+s21699
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhatIsHereRestHelper.m
+c0000000052F8D3690000000000000556
+t1392038761
+s1366
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhereAmIRestHelper.m
+c0000000052F8E0830000000000000554
+t1392042115
+s1364
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/SWARMHelpers.m
+c0000000052FB4C1200000000000003F1
+t1392200722
+s1009
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/BLESReachabilityChecker.m
+c0000000052FA285E000000000000136D
+t1392126046
+s4973
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/Include/BLESReachabilityChecker.h
+c0000000052CFBFB800000000000001D7
+t1389346744
+s471
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/Include/Reachability.h
+c0000000052D024C60000000000000E86
+t1389372614
+s3718
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/Reachability.m
+c0000000052D024C30000000000002552
+t1389372611
+s9554
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/SDK/Include/SwarmSDK.h
+c00000000530759EC0000000000001613
+t1392990700
+s5651
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/SDK/Include/SwarmSDKConfiguration.h
+c0000000052EBA34E00000000000001C5
+t1391174478
+s453
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/SDK/SwarmSDK.m
+c000000005305E4CE00000000000041EE
+t1392895182
+s16878
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/Include/SWARMIabCategorization.h
+c0000000052FB73BF0000000000000195
+t1392210879
+s405
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/Include/SWARMNaicsCategorization.h
+c0000000052FB73BF0000000000000155
+t1392210879
+s341
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/Include/SWARMSicCodeCategorization.h
+c0000000052FB73BF0000000000000157
+t1392210879
+s343
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/Include/SWARMStoreCategorization.h
+c0000000052FB73BF00000000000001DF
+t1392210879
+s479
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/Include/SWARMStoreCategoryBase.h
+c0000000052FF3DAB00000000000002CD
+t1392459179
+s717
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMIabCategorization.m
+c0000000052FB5F5F00000000000002C3
+t1392205663
+s707
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMNaicsCategorization.m
+c0000000052FB73BF0000000000000276
+t1392210879
+s630
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMSicCodeCategorization.m
+c0000000052FB73BF0000000000000271
+t1392210879
+s625
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategorization.m
+c0000000052FB614200000000000002D5
+t1392206146
+s725
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategoryBase.m
+c0000000052FF3DAB0000000000000B44
+t1392459179
+s2884
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/Include/SWARMLocationInformaion.h
+c0000000052FB81840000000000000647
+t1392214404
+s1607
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/Include/SWARMUserProfile.h
+c00000000530494EA00000000000004C7
+t1392809194
+s1223
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/Include/SWARMWhatIsHereInformation.h
+c0000000052F22159000000000000019D
+t1391599961
+s413
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMLocationInformaion.m
+c0000000052FB89740000000000000A01
+t1392216436
+s2561
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMUserProfile.m
+c00000000530494EA00000000000005DE
+t1392809194
+s1502
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMWhatIsHereInformation.m
+c0000000052F0CF09000000000000011F
+t1391513353
+s287
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/SwarmSDK/SwarmSDK-Prefix.pch
+c0000000052F8F7C600000000000000B6
+t1392048070
+s182
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/BLESBeacon.h
+t1392991442
+s657
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/BLESBeaconContainer.h
+t1392991442
+s1088
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/BLESCampaign.h
+t1392991442
+s623
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/BLESCoupon.h
+t1392991442
+s1107
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/BLESCustomerLocationEvent.h
+t1392991442
+s814
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/BLESMock.h
+t1392991442
+s472
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/BLESReachabilityChecker.h
+t1392991442
+s471
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/BLESUserProfile.h
+t1392991442
+s562
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/Reachability.h
+t1392991442
+s3718
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/SWARMBeacon.h
+t1392991442
+s617
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/SWARMIabCategorization.h
+t1392991442
+s405
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/SWARMLocationInformaion.h
+t1392991442
+s1607
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/SWARMNaicsCategorization.h
+t1392991442
+s341
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/SWARMSicCodeCategorization.h
+t1392991442
+s343
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/SWARMSourceSegmentVector.h
+t1392991442
+s585
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/SWARMStoreCategorization.h
+t1392991442
+s479
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/SWARMStoreCategoryBase.h
+t1392991442
+s717
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/SWARMUserProfile.h
+t1392991442
+s1223
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/SWARMWhatIsHereInformation.h
+t1392991442
+s413
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/SwarmSDK.h
+t1392991442
+s5651
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/include/SwarmSDK/SwarmSDKConfiguration.h
+t1392991442
+s453
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/libSwarmSDK.a
+t1392991442
+s2201396
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESBeacon.o
+t1392991442
+s34848
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESBeaconContainer.o
+t1392991442
+s34116
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCampaign.o
+t1392991442
+s12936
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCoupon.o
+t1392991442
+s31556
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCouponReaction.o
+t1392991442
+s15856
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCouponReactionRequestHelper.o
+t1392991442
+s23384
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCouponWalletRequestRestHelper.o
+t1392991442
+s28140
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCustomerLocationEvent.o
+t1392991442
+s31752
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESMock.o
+t1392991442
+s36832
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESReachabilityChecker.o
+t1392991442
+s27008
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESRequestCouponForCampaignRestHelper.o
+t1392991442
+s28476
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESRestApi.o
+t1392991442
+s84176
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESUserProfile.o
+t1392991442
+s22524
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESWhatIsHereRestHelper.o
+t1392991442
+s23200
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESWhereAmIRestHelper.o
+t1392991442
+s24524
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/Reachability.o
+t1392991442
+s25688
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMBeacon.o
+t1392991442
+s18328
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMHelpers.o
+t1392991442
+s9608
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMIabCategorization.o
+t1392991442
+s13940
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMLocationInformaion.o
+t1392991442
+s38404
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMNaicsCategorization.o
+t1392991442
+s12444
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMSicCodeCategorization.o
+t1392991442
+s12464
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMSourceSegmentVector.o
+t1392991442
+s16420
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMStoreCategorization.o
+t1392991442
+s15296
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMStoreCategoryBase.o
+t1392991442
+s26540
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMUserProfile.o
+t1392991442
+s26300
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMWhatIsHereInformation.o
+t1392991442
+s10424
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SwarmSDK.LinkFileList
+c0000000053075CD10000000000000F45
+t1392991441
+s3909
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SwarmSDK.o
+t1392991442
+s101064
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/libSwarmSDK.a
+t1392991442
+s799856
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESBeacon.o
+t1392991441
+s29416
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESBeaconContainer.o
+t1392991441
+s34092
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCampaign.o
+t1392991441
+s10464
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCoupon.o
+t1392991441
+s27808
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCouponReaction.o
+t1392991441
+s13596
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCouponReactionRequestHelper.o
+t1392991441
+s18616
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCouponWalletRequestRestHelper.o
+t1392991441
+s23308
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCustomerLocationEvent.o
+t1392991441
+s26972
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESMock.o
+t1392991441
+s34048
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESReachabilityChecker.o
+t1392991441
+s24848
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESRequestCouponForCampaignRestHelper.o
+t1392991441
+s23600
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESRestApi.o
+t1392991441
+s77100
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESUserProfile.o
+t1392991441
+s19004
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESWhatIsHereRestHelper.o
+t1392991441
+s18436
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESWhereAmIRestHelper.o
+t1392991441
+s19452
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/Reachability.o
+t1392991441
+s23728
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMBeacon.o
+t1392991441
+s15608
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMHelpers.o
+t1392991441
+s8496
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMIabCategorization.o
+t1392991441
+s11988
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMLocationInformaion.o
+t1392991441
+s33760
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMNaicsCategorization.o
+t1392991441
+s10636
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMSicCodeCategorization.o
+t1392991441
+s10652
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMSourceSegmentVector.o
+t1392991441
+s14100
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMStoreCategorization.o
+t1392991441
+s12968
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMStoreCategoryBase.o
+t1392991441
+s23468
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMUserProfile.o
+t1392991441
+s22500
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMWhatIsHereInformation.o
+t1392991441
+s8828
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SwarmSDK.LinkFileList
+c0000000053075CD10000000000000F45
+t1392991441
+s3909
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SwarmSDK.o
+t1392991441
+s89624
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/libSwarmSDK.a
+t1392991442
+s700736
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESBeacon.o
+t1392991441
+s29416
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESBeaconContainer.o
+t1392991441
+s34092
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCampaign.o
+t1392991441
+s10464
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCoupon.o
+t1392991441
+s27808
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCouponReaction.o
+t1392991441
+s13596
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCouponReactionRequestHelper.o
+t1392991441
+s18616
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCouponWalletRequestRestHelper.o
+t1392991441
+s23308
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCustomerLocationEvent.o
+t1392991441
+s26972
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESMock.o
+t1392991441
+s34048
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESReachabilityChecker.o
+t1392991441
+s24848
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESRequestCouponForCampaignRestHelper.o
+t1392991441
+s23600
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESRestApi.o
+t1392991441
+s77100
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESUserProfile.o
+t1392991441
+s19004
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESWhatIsHereRestHelper.o
+t1392991441
+s18436
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESWhereAmIRestHelper.o
+t1392991441
+s19452
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/Reachability.o
+t1392991441
+s23728
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMBeacon.o
+t1392991441
+s15608
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMHelpers.o
+t1392991441
+s8496
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMIabCategorization.o
+t1392991441
+s11988
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMLocationInformaion.o
+t1392991441
+s33760
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMNaicsCategorization.o
+t1392991441
+s10636
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMSicCodeCategorization.o
+t1392991441
+s10652
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMSourceSegmentVector.o
+t1392991441
+s14100
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMStoreCategorization.o
+t1392991441
+s12968
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMStoreCategoryBase.o
+t1392991441
+s23468
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMUserProfile.o
+t1392991441
+s22500
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMWhatIsHereInformation.o
+t1392991441
+s8828
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SwarmSDK.LinkFileList
+c0000000053075CD10000000000000F61
+t1392991441
+s3937
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SwarmSDK.o
+t1392991441
+s89624
+
+N/Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/libSwarmSDK.a
+t1392991442
+s700736
+
+N/var/folders/x6/d_y9bn7n0pz05ny0nxskgxbw0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/SwarmSDK-Prefix-cwyqxtlksscssdegyiybhxkvbgmq/SwarmSDK-Prefix.pch.pch
+t1392984224
+s99228
+
+N/var/folders/x6/d_y9bn7n0pz05ny0nxskgxbw0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/SwarmSDK-Prefix-ffeliscueeifzheuktuymvvoinlv/SwarmSDK-Prefix.pch.pch
+t1392984224
+s84296
+
+N/var/folders/x6/d_y9bn7n0pz05ny0nxskgxbw0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/SwarmSDK-Prefix-hjcqwdajkfohiqddiisvslujyrdq/SwarmSDK-Prefix.pch.pch
+t1392984224
+s84292
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd0b8d86194b7b841^c3bb086294b7b841^---0#1#1#--18"Check dependencies36"7A8E60A9-B396-406D-8DE1-E6FE5AA4218D-
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESBeacon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeacon.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESBeaconContainer.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeaconContainer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCampaign.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCampaign.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCoupon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCoupon.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCouponReaction.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCouponReaction.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCouponReactionRequestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponReactionRequestHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCouponWalletRequestRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponWalletRequestRestHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESCustomerLocationEvent.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCustomerLocationEvent.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESMock.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESMock.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESReachabilityChecker.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/BLESReachabilityChecker.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESRequestCouponForCampaignRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRequestCouponForCampaignRestHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESRestApi.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRestApi.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESUserProfile.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESUserProfile.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESWhatIsHereRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhatIsHereRestHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/BLESWhereAmIRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhereAmIRestHelper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/Reachability.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/Reachability.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMBeacon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMBeacon.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMHelpers.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/SWARMHelpers.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMIabCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMIabCategorization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMLocationInformaion.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMLocationInformaion.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMNaicsCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMNaicsCategorization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMSicCodeCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMSicCodeCategorization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMSourceSegmentVector.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMSourceSegmentVector.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMStoreCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategorization.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMStoreCategoryBase.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategoryBase.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMUserProfile.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMUserProfile.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SWARMWhatIsHereInformation.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMWhatIsHereInformation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/SwarmSDK.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/SDK/SwarmSDK.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESBeacon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeacon.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESBeaconContainer.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeaconContainer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCampaign.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCampaign.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCoupon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCoupon.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCouponReaction.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCouponReaction.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCouponReactionRequestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponReactionRequestHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCouponWalletRequestRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponWalletRequestRestHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESCustomerLocationEvent.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCustomerLocationEvent.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESMock.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESMock.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESReachabilityChecker.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/BLESReachabilityChecker.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESRequestCouponForCampaignRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRequestCouponForCampaignRestHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESRestApi.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRestApi.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESUserProfile.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESUserProfile.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESWhatIsHereRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhatIsHereRestHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/BLESWhereAmIRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhereAmIRestHelper.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/Reachability.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/Reachability.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMBeacon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMBeacon.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMHelpers.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/SWARMHelpers.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMIabCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMIabCategorization.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMLocationInformaion.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMLocationInformaion.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMNaicsCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMNaicsCategorization.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMSicCodeCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMSicCodeCategorization.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMSourceSegmentVector.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMSourceSegmentVector.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMStoreCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategorization.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMStoreCategoryBase.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategoryBase.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMUserProfile.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMUserProfile.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SWARMWhatIsHereInformation.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMWhatIsHereInformation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/SwarmSDK.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/SDK/SwarmSDK.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESBeacon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeacon.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESBeaconContainer.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESBeaconContainer.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCampaign.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCampaign.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCoupon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCoupon.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCouponReaction.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCouponReaction.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCouponReactionRequestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponReactionRequestHelper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCouponWalletRequestRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESCouponWalletRequestRestHelper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESCustomerLocationEvent.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESCustomerLocationEvent.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESMock.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESMock.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESReachabilityChecker.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/BLESReachabilityChecker.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESRequestCouponForCampaignRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRequestCouponForCampaignRestHelper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESRestApi.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESRestApi.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESUserProfile.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/BLESUserProfile.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESWhatIsHereRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhatIsHereRestHelper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/BLESWhereAmIRestHelper.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/BLESWhereAmIRestHelper.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/Reachability.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Reachability/Reachability.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMBeacon.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMBeacon.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMHelpers.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Helpers/SWARMHelpers.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMIabCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMIabCategorization.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMLocationInformaion.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMLocationInformaion.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMNaicsCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMNaicsCategorization.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMSicCodeCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMSicCodeCategorization.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMSourceSegmentVector.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Entities/SWARMSourceSegmentVector.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMStoreCategorization.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategorization.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMStoreCategoryBase.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/StoreCategorization/SWARMStoreCategoryBase.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMUserProfile.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMUserProfile.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SWARMWhatIsHereInformation.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/Swarm/SWARMWhatIsHereInformation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/SwarmSDK.o /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/SDK/SwarmSDK.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCreateUniversalBinary /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/Debug-iphoneos/libSwarmSDK.a normal armv7\ armv7s\ arm64
+r0
+
+CLibtool /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/arm64/libSwarmSDK.a normal arm64
+r0
+
+CLibtool /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7/libSwarmSDK.a normal armv7
+r0
+
+CLibtool /Users/Requin/BeaconDemo/BeaconDemo/SwarmSDK/build/SwarmSDK.build/Debug-iphoneos/SwarmSDK.build/Objects-normal/armv7s/libSwarmSDK.a normal armv7s
+r0
+
+CPBXCp Entities/Include/BLESBeacon.h build/Debug-iphoneos/include/SwarmSDK/BLESBeacon.h
+r0
+
+CPBXCp Entities/Include/BLESBeaconContainer.h build/Debug-iphoneos/include/SwarmSDK/BLESBeaconContainer.h
+r0
+
+CPBXCp Entities/Include/BLESCampaign.h build/Debug-iphoneos/include/SwarmSDK/BLESCampaign.h
+r0
+
+CPBXCp Entities/Include/BLESCoupon.h build/Debug-iphoneos/include/SwarmSDK/BLESCoupon.h
+r0
+
+CPBXCp Entities/Include/BLESCustomerLocationEvent.h build/Debug-iphoneos/include/SwarmSDK/BLESCustomerLocationEvent.h
+r0
+
+CPBXCp Entities/Include/BLESMock.h build/Debug-iphoneos/include/SwarmSDK/BLESMock.h
+r0
+
+CPBXCp Entities/Include/BLESUserProfile.h build/Debug-iphoneos/include/SwarmSDK/BLESUserProfile.h
+r0
+
+CPBXCp Entities/Include/SWARMBeacon.h build/Debug-iphoneos/include/SwarmSDK/SWARMBeacon.h
+r0
+
+CPBXCp Entities/Include/SWARMSourceSegmentVector.h build/Debug-iphoneos/include/SwarmSDK/SWARMSourceSegmentVector.h
+r0
+
+CPBXCp Reachability/Include/BLESReachabilityChecker.h build/Debug-iphoneos/include/SwarmSDK/BLESReachabilityChecker.h
+r0
+
+CPBXCp Reachability/Include/Reachability.h build/Debug-iphoneos/include/SwarmSDK/Reachability.h
+r0
+
+CPBXCp SDK/Include/SwarmSDK.h build/Debug-iphoneos/include/SwarmSDK/SwarmSDK.h
+r0
+
+CPBXCp SDK/Include/SwarmSDKConfiguration.h build/Debug-iphoneos/include/SwarmSDK/SwarmSDKConfiguration.h
+r0
+
+CPBXCp StoreCategorization/Include/SWARMIabCategorization.h build/Debug-iphoneos/include/SwarmSDK/SWARMIabCategorization.h
+r0
+
+CPBXCp StoreCategorization/Include/SWARMNaicsCategorization.h build/Debug-iphoneos/include/SwarmSDK/SWARMNaicsCategorization.h
+r0
+
+CPBXCp StoreCategorization/Include/SWARMSicCodeCategorization.h build/Debug-iphoneos/include/SwarmSDK/SWARMSicCodeCategorization.h
+r0
+
+CPBXCp StoreCategorization/Include/SWARMStoreCategorization.h build/Debug-iphoneos/include/SwarmSDK/SWARMStoreCategorization.h
+r0
+
+CPBXCp StoreCategorization/Include/SWARMStoreCategoryBase.h build/Debug-iphoneos/include/SwarmSDK/SWARMStoreCategoryBase.h
+r0
+
+CPBXCp Swarm/Include/SWARMLocationInformaion.h build/Debug-iphoneos/include/SwarmSDK/SWARMLocationInformaion.h
+r0
+
+CPBXCp Swarm/Include/SWARMUserProfile.h build/Debug-iphoneos/include/SwarmSDK/SWARMUserProfile.h
+r0
+
+CPBXCp Swarm/Include/SWARMWhatIsHereInformation.h build/Debug-iphoneos/include/SwarmSDK/SWARMWhatIsHereInformation.h
+r0
+
+CProcessPCH /var/folders/x6/d_y9bn7n0pz05ny0nxskgxbw0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/SwarmSDK-Prefix-cwyqxtlksscssdegyiybhxkvbgmq/SwarmSDK-Prefix.pch.pch SwarmSDK/SwarmSDK-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/x6/d_y9bn7n0pz05ny0nxskgxbw0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/SwarmSDK-Prefix-ffeliscueeifzheuktuymvvoinlv/SwarmSDK-Prefix.pch.pch SwarmSDK/SwarmSDK-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/x6/d_y9bn7n0pz05ny0nxskgxbw0000gp/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/SwarmSDK-Prefix-hjcqwdajkfohiqddiisvslujyrdq/SwarmSDK-Prefix.pch.pch SwarmSDK/SwarmSDK-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+

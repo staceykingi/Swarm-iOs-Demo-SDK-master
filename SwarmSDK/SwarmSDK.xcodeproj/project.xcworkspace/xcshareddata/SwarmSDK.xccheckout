@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>72FE430F-67FA-4611-B0E5-041521ECD43F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwarmSDK</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7BA5A456-3BFB-4CA0-A1C7-329AFEFC42F8</key>
+		<string>https://github.com/stevebeyatte/Swarm-Consumer-SDK</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwarmSDK/SwarmSDK.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7BA5A456-3BFB-4CA0-A1C7-329AFEFC42F8</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/stevebeyatte/Swarm-Consumer-SDK</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7BA5A456-3BFB-4CA0-A1C7-329AFEFC42F8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7BA5A456-3BFB-4CA0-A1C7-329AFEFC42F8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swarm-Consumer-SDK</string>
+		</dict>
+	</array>
+</dict>
+</plist>

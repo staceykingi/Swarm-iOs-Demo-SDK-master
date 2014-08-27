@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Helpers/BLESRestApi.m \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Helpers/BLESRestApi.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Entities/Include/BLESCustomerLocationEvent.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Entities/Include/SWARMSourceSegmentVector.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Swarm/Include/SWARMUserProfile.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Entities/Include/SWARMAction.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Reachability/Include/BLESReachabilityChecker.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Reachability/Include/SWARMReachability.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Entities/SWARMActionReaction.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Helpers/BLESUrlDefinitions.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Entities/Include/BLESBeacon.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Entities/Include/BLESCampaign.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Helpers/BLESWhereAmIRestHelper.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Helpers/BLESWhatIsHereRestHelper.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Helpers/SWARMActionReactionRequestHelper.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Helpers/BLESRequestActionForCampaignRestHelper.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Helpers/SWARMActionForMeRequestRestHelper.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Helpers/BLESSwarmLoginRestHelper.h \
+  /Users/Requin/Code/Swarm-Consumer-SDK/SwarmSDK/Helpers/SWARMHmacHelper.h
